@@ -348,11 +348,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/richardsiska/Desktop/XamDev/NorthPointApp/NorthPointApp/NorthPointApp.csproj",
+      "projectUniqueName": "/Users/richardsiska/Desktop/XamDev/CapStone/NorthPointApp/NorthPointApp.csproj",
       "projectName": "NorthPointApp",
-      "projectPath": "/Users/richardsiska/Desktop/XamDev/NorthPointApp/NorthPointApp/NorthPointApp.csproj",
+      "projectPath": "/Users/richardsiska/Desktop/XamDev/CapStone/NorthPointApp/NorthPointApp.csproj",
       "packagesPath": "/Users/richardsiska/.nuget/packages/",
-      "outputPath": "/Users/richardsiska/Desktop/XamDev/NorthPointApp/NorthPointApp/obj/",
+      "outputPath": "/Users/richardsiska/Desktop/XamDev/CapStone/NorthPointApp/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{07B4A4D2-A944-4804-B44D-0A02AD0DFDF6}|Default">
+  <MonoDevelop.Ide.ItemProperties.NorthPointApp.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NorthPointApp.iOS/AppDelegate.cs">
+    <Files>
+      <File FileName="NorthPointApp.iOS/AppDelegate.cs" Line="13" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NorthPointApp" expanded="True">
+            <Node name="NorthPointApp.iOS" expanded="True">
+              <Node name="AppDelegate.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

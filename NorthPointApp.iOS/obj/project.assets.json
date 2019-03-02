@@ -718,11 +718,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/richardsiska/Desktop/XamDev/NorthPointApp/NorthPointApp.iOS/NorthPointApp.iOS.csproj",
+      "projectUniqueName": "/Users/richardsiska/Desktop/XamDev/CapStone/NorthPointApp.iOS/NorthPointApp.iOS.csproj",
       "projectName": "NorthPointApp.iOS",
-      "projectPath": "/Users/richardsiska/Desktop/XamDev/NorthPointApp/NorthPointApp.iOS/NorthPointApp.iOS.csproj",
+      "projectPath": "/Users/richardsiska/Desktop/XamDev/CapStone/NorthPointApp.iOS/NorthPointApp.iOS.csproj",
       "packagesPath": "/Users/richardsiska/.nuget/packages/",
-      "outputPath": "/Users/richardsiska/Desktop/XamDev/NorthPointApp/NorthPointApp.iOS/obj/",
+      "outputPath": "/Users/richardsiska/Desktop/XamDev/CapStone/NorthPointApp.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -737,8 +737,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/richardsiska/Desktop/XamDev/NorthPointApp/NorthPointApp/NorthPointApp.csproj": {
-              "projectPath": "/Users/richardsiska/Desktop/XamDev/NorthPointApp/NorthPointApp/NorthPointApp.csproj"
+            "/Users/richardsiska/Desktop/XamDev/CapStone/NorthPointApp/NorthPointApp.csproj": {
+              "projectPath": "/Users/richardsiska/Desktop/XamDev/CapStone/NorthPointApp/NorthPointApp.csproj"
             }
           }
         }

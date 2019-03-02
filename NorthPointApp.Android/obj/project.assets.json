@@ -780,11 +780,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/richardsiska/Desktop/XamDev/NorthPointApp/NorthPointApp.Android/NorthPointApp.Android.csproj",
+      "projectUniqueName": "/Users/richardsiska/Desktop/XamDev/CapStone/NorthPointApp.Android/NorthPointApp.Android.csproj",
       "projectName": "NorthPointApp.Android",
-      "projectPath": "/Users/richardsiska/Desktop/XamDev/NorthPointApp/NorthPointApp.Android/NorthPointApp.Android.csproj",
+      "projectPath": "/Users/richardsiska/Desktop/XamDev/CapStone/NorthPointApp.Android/NorthPointApp.Android.csproj",
       "packagesPath": "/Users/richardsiska/.nuget/packages/",
-      "outputPath": "/Users/richardsiska/Desktop/XamDev/NorthPointApp/NorthPointApp.Android/obj/",
+      "outputPath": "/Users/richardsiska/Desktop/XamDev/CapStone/NorthPointApp.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -799,8 +799,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/richardsiska/Desktop/XamDev/NorthPointApp/NorthPointApp/NorthPointApp.csproj": {
-              "projectPath": "/Users/richardsiska/Desktop/XamDev/NorthPointApp/NorthPointApp/NorthPointApp.csproj"
+            "/Users/richardsiska/Desktop/XamDev/CapStone/NorthPointApp/NorthPointApp.csproj": {
+              "projectPath": "/Users/richardsiska/Desktop/XamDev/CapStone/NorthPointApp/NorthPointApp.csproj"
             }
           }
         }
