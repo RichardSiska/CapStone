@@ -47,7 +47,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
+      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -190,10 +190,11 @@
       ]
     },
     "Xamarin.Forms/3.5.0.169047": {
-      "sha512": "ybupzRr8C93lEDyeCI4am3XTervm+4nhBVdb8StYS/ZRLQdvjrGyKkAonz/TGbz7Sjln05KDWwQts4moE9HUgg==",
+      "sha512": "bDUiWsvlU949lyf8gw5ROVQ0kRr1dB8daiWATYCXuOXv/iODsbq/8NmNVxhV2WbOo8b8wJMe7SqZG4V/CQlYuQ==",
       "type": "package",
       "path": "xamarin.forms/3.5.0.169047",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "build/Xamarin.Forms.DefaultItems.props",
         "build/Xamarin.Forms.DefaultItems.targets",
@@ -360,28 +361,30 @@
     ]
   },
   "packageFolders": {
-    "/Users/richardsiska/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\richardsiska\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/richardsiska/Desktop/XamDev/CapStone/NorthPointApp/NorthPointApp.csproj",
+      "projectUniqueName": "\\\\Mac\\Home\\Desktop\\XamDev\\CapStone\\NorthPointApp\\NorthPointApp.csproj",
       "projectName": "NorthPointApp",
-      "projectPath": "/Users/richardsiska/Desktop/XamDev/CapStone/NorthPointApp/NorthPointApp.csproj",
-      "packagesPath": "/Users/richardsiska/.nuget/packages/",
-      "outputPath": "/Users/richardsiska/Desktop/XamDev/CapStone/NorthPointApp/obj/",
+      "projectPath": "\\\\Mac\\Home\\Desktop\\XamDev\\CapStone\\NorthPointApp\\NorthPointApp.csproj",
+      "packagesPath": "C:\\Users\\richardsiska\\.nuget\\packages\\",
+      "outputPath": "\\\\Mac\\Home\\Desktop\\XamDev\\CapStone\\NorthPointApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/richardsiska/.config/NuGet/NuGet.Config"
+        "C:\\Users\\richardsiska\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

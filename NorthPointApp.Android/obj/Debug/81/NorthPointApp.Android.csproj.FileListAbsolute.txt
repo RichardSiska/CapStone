@@ -1,0 +1,4 @@
+\\Mac\Home\Desktop\XamDev\CapStone\NorthPointApp.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+\\Mac\Home\Desktop\XamDev\CapStone\NorthPointApp.Android\obj\Debug\81\NorthPointApp.Android.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\XamDev\CapStone\NorthPointApp.Android\obj\Debug\81\libraryimports.cache.stamp
+\\Mac\Home\Desktop\XamDev\CapStone\NorthPointApp.Android\obj\Debug\81\res.flag
