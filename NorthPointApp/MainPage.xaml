@@ -4,23 +4,24 @@
              x:Class="NorthPointApp.MainPage"
              BackgroundColor="Gray"
              >
-
-    <StackLayout>
+    <ScrollView>
+        <StackLayout>
         
-        <Image Source="NorthPointFullWht.png" Scale=".8"/>
+            <Image Source="NorthPointFullWht.png" Scale=".8"/>
         
-        <Label Text="Test Line" StyleClass="lineText"/>
-        <Entry x:Name="test1"/>
-        <Label Text="Test Line" StyleClass="lineText"/>
-        <Entry x:Name="test2"/>
-        <Label Text="Test Line" StyleClass="lineText"/>
-        <Entry x:Name="test3"/>
-        <Label Text="Test Line" StyleClass="lineText"/>
-        <Entry x:Name="test4"/>
-        <Label Text="Test Line" StyleClass="lineText"/>
-        <Entry x:Name="test5"/>
-        <Label Text="Test Line" StyleClass="lineText"/>
-        <Entry x:Name="test6"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
+            <Entry x:Name="test1"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
+            <Entry x:Name="test2"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
+            <Entry x:Name="test3"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
+            <Entry x:Name="test4"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
+            <Entry x:Name="test5"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
+            <Entry x:Name="test6"/>
 
-    </StackLayout>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
