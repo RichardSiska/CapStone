@@ -102,7 +102,6 @@ C:\CapREPO\CapStone\NorthPointApp.iOS\bin\iPhoneSimulator\Debug\Xamvvm.Core.dll
 C:\CapREPO\CapStone\NorthPointApp.iOS\bin\iPhoneSimulator\Debug\Xamvvm.Forms.dll
 C:\CapREPO\CapStone\NorthPointApp.iOS\bin\iPhoneSimulator\Debug\NorthPointApp.dll
 C:\CapREPO\CapStone\NorthPointApp.iOS\bin\iPhoneSimulator\Debug\NorthPointApp.pdb
-C:\CapREPO\CapStone\NorthPointApp.iOS\bin\iPhoneSimulator\Debug\NorthPointApp.dll.mdb
 C:\CapREPO\CapStone\NorthPointApp.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
 C:\CapREPO\CapStone\NorthPointApp.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
 C:\CapREPO\CapStone\NorthPointApp.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items

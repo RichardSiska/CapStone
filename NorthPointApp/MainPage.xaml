@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:NorthPointApp" x:Class="NorthPointApp.MainPage">
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to NorthPoint App!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:NorthPointApp" 
+             x:Class="NorthPointApp.MainPage"
+             BackgroundColor="Gray"
+             >
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Image Source="NorthPointFullWht.png"/>
+                <BoxView BackgroundColor="LightSlateGray" HeightRequest="1000" WidthRequest="150" />
+                <!-- Place new controls here -->
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
 </ContentPage>

@@ -46,7 +46,6 @@
 C:\CapREPO\CapStone\NorthPointApp\bin\Debug\netstandard2.0\NorthPointApp.deps.json
 C:\CapREPO\CapStone\NorthPointApp\bin\Debug\netstandard2.0\NorthPointApp.dll
 C:\CapREPO\CapStone\NorthPointApp\bin\Debug\netstandard2.0\NorthPointApp.pdb
-C:\CapREPO\CapStone\NorthPointApp\obj\Debug\netstandard2.0\NorthPointApp.csprojAssemblyReference.cache
 C:\CapREPO\CapStone\NorthPointApp\obj\Debug\netstandard2.0\NorthPointApp.csproj.CoreCompileInputs.cache
 C:\CapREPO\CapStone\NorthPointApp\obj\Debug\netstandard2.0\NorthPointApp.AssemblyInfoInputs.cache
 C:\CapREPO\CapStone\NorthPointApp\obj\Debug\netstandard2.0\NorthPointApp.AssemblyInfo.cs
