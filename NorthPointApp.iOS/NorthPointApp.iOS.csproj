@@ -147,14 +147,16 @@
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.5.0.169047" />
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\NorthPointApp\NorthPointApp.csproj">
       <Project>{9631F775-0B96-447B-8F14-75E8479C0A4D}</Project>
       <Name>NorthPointApp</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamvvm.Forms">
+      <Version>1.0.5</Version>
+    </PackageReference>
   </ItemGroup>
 </Project>

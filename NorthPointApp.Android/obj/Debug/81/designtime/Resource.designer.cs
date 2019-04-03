@@ -56,11 +56,11 @@ namespace NorthPointApp.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F020002
-			public const int sliding_tabs = 2130837506;
+			// aapt resource value: 0x7F010002
+			public const int sliding_tabs = 2130771970;
 			
-			// aapt resource value: 0x7F020003
-			public const int toolbar = 2130837507;
+			// aapt resource value: 0x7F010003
+			public const int toolbar = 2130771971;
 			
 			static Id()
 			{
@@ -75,11 +75,11 @@ namespace NorthPointApp.Droid
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7F030002
-			public const int Tabbar = 2130903042;
+			// aapt resource value: 0x7F020002
+			public const int Tabbar = 2130837506;
 			
-			// aapt resource value: 0x7F030003
-			public const int Toolbar = 2130903043;
+			// aapt resource value: 0x7F020003
+			public const int Toolbar = 2130837507;
 			
 			static Layout()
 			{
@@ -94,14 +94,14 @@ namespace NorthPointApp.Droid
 		public partial class Mipmap
 		{
 			
-			// aapt resource value: 0x7F010002
-			public const int icon = 2130771970;
+			// aapt resource value: 0x7F030002
+			public const int icon = 2130903042;
 			
-			// aapt resource value: 0x7F010004
-			public const int icon_round = 2130771972;
+			// aapt resource value: 0x7F030003
+			public const int icon_round = 2130903043;
 			
-			// aapt resource value: 0x7F010003
-			public const int launcher_foreground = 2130771971;
+			// aapt resource value: 0x7F030004
+			public const int launcher_foreground = 2130903044;
 			
 			static Mipmap()
 			{
