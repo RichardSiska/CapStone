@@ -13,6 +13,20 @@
             <Label Text="Test Line (Avenir Bold)" StyleClass="lineText" FontFamily="{StaticResource BoldFont}"/>
             <Label Text="Test Line (Avenir Bold Narrow)" StyleClass="lineText" FontFamily="{StaticResource NarrowBoldFont}"/>
             <Label Text="Test Line (Avenir Italic)" StyleClass="lineText" FontFamily="{StaticResource ItalicFont}"/>
+            <!--Lines to test scolling functionality-->
+            <Label Text="Test Line" StyleClass="lineText"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
             <Label Text="Test Line" StyleClass="lineText"/>
             <Label Text="Test Line" StyleClass="lineText"/>
             <Label Text="Test Line" StyleClass="lineText"/>
