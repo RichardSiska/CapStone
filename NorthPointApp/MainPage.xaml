@@ -3,24 +3,29 @@
              xmlns:local="clr-namespace:NorthPointApp" 
              x:Class="NorthPointApp.MainPage"
              BackgroundColor="Gray"
+             ControlTemplate="{StaticResource ThemeMaster}"
              >
     <ScrollView>
         <StackLayout>
-        
-            <Image Source="NorthPointFullWht.png" Scale=".8"/>
-        
+
+            
+            <Label Text="Test Line (Avenir Regular)" StyleClass="lineText" FontFamily="{StaticResource NormalFont}"/>
+            <Label Text="Test Line (Avenir Bold)" StyleClass="lineText" FontFamily="{StaticResource BoldFont}"/>
+            <Label Text="Test Line (Avenir Bold Narrow)" StyleClass="lineText" FontFamily="{StaticResource NarrowBoldFont}"/>
+            <Label Text="Test Line (Avenir Italic)" StyleClass="lineText" FontFamily="{StaticResource ItalicFont}"/>
             <Label Text="Test Line" StyleClass="lineText"/>
-            <Entry x:Name="test1"/>
             <Label Text="Test Line" StyleClass="lineText"/>
-            <Entry x:Name="test2"/>
             <Label Text="Test Line" StyleClass="lineText"/>
-            <Entry x:Name="test3"/>
             <Label Text="Test Line" StyleClass="lineText"/>
-            <Entry x:Name="test4"/>
             <Label Text="Test Line" StyleClass="lineText"/>
-            <Entry x:Name="test5"/>
             <Label Text="Test Line" StyleClass="lineText"/>
-            <Entry x:Name="test6"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
+            <Label Text="Test Line" StyleClass="lineText"/>
 
         </StackLayout>
     </ScrollView>

@@ -66,6 +66,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidAsset Include="Assets\AvenirNextLTPro-Bold.otf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AndroidAsset>
+    <AndroidAsset Include="Assets\AvenirNextLTPro-BoldCn.otf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AndroidAsset>
+    <AndroidAsset Include="Assets\AvenirNextLTPro-It.otf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AndroidAsset>
+    <AndroidAsset Include="Assets\AvenirNextLTPro-Regular.otf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AndroidAsset>
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
