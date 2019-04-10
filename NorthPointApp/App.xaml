@@ -3,6 +3,7 @@
     <Application.Resources>
         <!--Resource Dictionary to make static references and reduce code Redundancy-->
         <ResourceDictionary>
+            
             <!--Font Referencing for IOS and Android-->
             <OnPlatform x:TypeArguments="x:String" x:Key="BoldFont">
                 <On Platform="Android" Value="AvenirNextLTPro-Bold.otf#AvenirNext LT Pro Bold" />
@@ -20,18 +21,27 @@
                 <On Platform="Android" Value="AvenirNextLTPro-It.otf#AvenirNext LT Pro Regular" />
                 <On Platform="iOS" Value="AvenirNextLTPro-It" />
             </OnPlatform>
+            
+            <!--Navigation Bar Styling-->
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="Black"/>
+                <Setter Property="BarTextColor" Value="White"/>
+            </Style>
+
             <!--External Stylesheet used to reduce code redundancy -->
             <StyleSheet Source="Styles/NorthPointStyleSheet.css"/>
+            
             <!--Control Template used to add The North Point logo across multiple pages-->
             <ControlTemplate x:Key="ThemeMaster">
                 <StackLayout VerticalOptions="StartAndExpand">
+                    <BoxView BackgroundColor="White" WidthRequest="50" HeightRequest="2"></BoxView>
                     <Image Source="NorthPointFullWht.png" Scale=".8"/>
                     <BoxView BackgroundColor="White" WidthRequest="50" HeightRequest="2"></BoxView>
                     <ContentPresenter>
                     </ContentPresenter>
                 </StackLayout>
-                
             </ControlTemplate>
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>

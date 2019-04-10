@@ -15,6 +15,11 @@
     <PackageReference Include="Xamvvm.Forms" Version="1.0.5" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Update="MasterDetailPageMain.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
     <None Update="App.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>

@@ -11,7 +11,7 @@ namespace NorthPointApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new MasterDetailPageMain();
         }
 
         protected override void OnStart()

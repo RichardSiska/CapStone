@@ -3,44 +3,21 @@
              xmlns:local="clr-namespace:NorthPointApp" 
              x:Class="NorthPointApp.MainPage"
              BackgroundColor="Gray"
+             Title="Home"
              ControlTemplate="{StaticResource ThemeMaster}"
              >
+    
     <ScrollView>
         <StackLayout>
 
-            
+            <Image Source="NorthPointSafePlace.png" Scale=".9"/>
+
+            <!--Lines to test Font functionality-->
             <Label Text="Test Line (Avenir Regular)" StyleClass="lineText" FontFamily="{StaticResource NormalFont}"/>
             <Label Text="Test Line (Avenir Bold)" StyleClass="lineText" FontFamily="{StaticResource BoldFont}"/>
             <Label Text="Test Line (Avenir Bold Narrow)" StyleClass="lineText" FontFamily="{StaticResource NarrowBoldFont}"/>
             <Label Text="Test Line (Avenir Italic)" StyleClass="lineText" FontFamily="{StaticResource ItalicFont}"/>
-            <!--Lines to test scolling functionality-->
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-            <Label Text="Test Line" StyleClass="lineText"/>
-
+            
         </StackLayout>
     </ScrollView>
 </ContentPage>

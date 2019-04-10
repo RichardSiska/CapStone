@@ -2976,7 +2976,10 @@ namespace NorthPointApp.Droid
 			public const int NorthPointFullWht = 2130771975;
 			
 			// aapt resource value: 0x7F010008
-			public const int NorthPointWht = 2130771976;
+			public const int NorthPointSafePlace = 2130771976;
+			
+			// aapt resource value: 0x7F010009
+			public const int NorthPointWht = 2130771977;
 			
 			// aapt resource value: 0x7F090001
 			public const int notification_action_background = 2131296257;
