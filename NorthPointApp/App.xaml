@@ -3,7 +3,7 @@
     <Application.Resources>
         <!--Resource Dictionary to make static references and reduce code Redundancy-->
         <ResourceDictionary>
-            
+
             <!--Font Referencing for IOS and Android-->
             <OnPlatform x:TypeArguments="x:String" x:Key="BoldFont">
                 <On Platform="Android" Value="AvenirNextLTPro-Bold.otf#AvenirNext LT Pro Bold" />
@@ -35,6 +35,7 @@
             <ControlTemplate x:Key="ThemeMaster">
                 <StackLayout VerticalOptions="StartAndExpand">
                     <BoxView BackgroundColor="White" WidthRequest="50" HeightRequest="2"></BoxView>
+
                     <Image Source="NorthPointFullWht.png" Scale=".8"/>
                     <BoxView BackgroundColor="White" WidthRequest="50" HeightRequest="2"></BoxView>
                     <ContentPresenter>

@@ -12,7 +12,7 @@ namespace NorthPointApp.Droid
     [Activity(Label = "NorthPoint Mobile", 
         Icon = "@mipmap/icon", 
         Theme = "@style/MainTheme", 
-        MainLauncher = true, 
+         
         ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
 
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
