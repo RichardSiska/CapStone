@@ -33,11 +33,11 @@
             
             <!--Control Template used to add The North Point logo across multiple pages-->
             <ControlTemplate x:Key="ThemeMaster">
-                <StackLayout VerticalOptions="StartAndExpand">
-                    <BoxView BackgroundColor="White" WidthRequest="50" HeightRequest="2"></BoxView>
-
-                    <Image Source="NorthPointFullWht.png" Scale=".8"/>
-                    <BoxView BackgroundColor="White" WidthRequest="50" HeightRequest="2"></BoxView>
+                <!--Northpoint Logo and and Stack Decoration-->
+                <StackLayout VerticalOptions="StartAndExpand" Spacing="0">
+                    <BoxView BackgroundColor="White" WidthRequest="50" HeightRequest="3"></BoxView>
+                    <Image Source="NorthPointCrowdLogoFull.png" Scale="1"/>
+                    <BoxView BackgroundColor="White" WidthRequest="50" HeightRequest="3"></BoxView>
                     <ContentPresenter>
                     </ContentPresenter>
                 </StackLayout>
