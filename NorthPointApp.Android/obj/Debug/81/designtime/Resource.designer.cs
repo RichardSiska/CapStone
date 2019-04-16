@@ -3030,7 +3030,10 @@ namespace NorthPointApp.Droid
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
 			// aapt resource value: 0x7F010013
-			public const int splash_screen = 2130771987;
+			public const int SplashLogoSmll = 2130771987;
+			
+			// aapt resource value: 0x7F010014
+			public const int splash_screen = 2130771988;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;

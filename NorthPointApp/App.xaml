@@ -27,6 +27,11 @@
                 <Setter Property="BarBackgroundColor" Value="Black"/>
                 <Setter Property="BarTextColor" Value="White"/>
             </Style>
+            
+            <!--Button Styling-->
+            <Style TargetType="Button" x:Name="NavButton">
+                <Setter Property="CornerRadius" Value="20"/>
+            </Style>
 
             <!--External Stylesheet used to reduce code redundancy -->
             <StyleSheet Source="Styles/NorthPointStyleSheet.css"/>

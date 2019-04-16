@@ -10,12 +10,29 @@
     <MasterDetailPage.Master>
         <ContentPage Padding="2" BackgroundColor="White" Title="Master" >
             <ContentPage.Content>
-                <StackLayout BackgroundColor="Gray">
-                    <Label Text="Page Navigation" StyleClass="lineText"/>
-                    <Button Text="Home" FontFamily="{StaticResource BoldFont}" Clicked="Button_Clicked_HomeNav"/>
-                    <Button Text="Groups" FontFamily="{StaticResource BoldFont}" Clicked="Button_Clicked_GroupsNav"/>
-                    <Button Text="Events" FontFamily="{StaticResource BoldFont}" Clicked="Button_Clicked_EventsNav"/>
-                    <Button Text="Giving" FontFamily="{StaticResource BoldFont}" Clicked="Button_Clicked_GivingNav"/>
+                <StackLayout BackgroundColor="Black">
+                    
+                    <Label Text="Page Navigation" 
+                           StyleClass="lineText" 
+                           FontFamily="{StaticResource BoldFont}" />
+                    
+                    <Button Text="Home"
+                            FontFamily="{StaticResource BoldFont}" 
+                            Clicked="Button_Clicked_HomeNav"/>
+                    
+                    <Button Text="Groups"
+                            FontFamily="{StaticResource BoldFont}" 
+                            Clicked="Button_Clicked_GroupsNav"/>
+                    
+                    <Button Text="Events"
+                            FontFamily="{StaticResource BoldFont}" 
+                            Clicked="Button_Clicked_EventsNav"/>
+                    
+                    <Button Text="Giving"
+                            x:Name="NavButton"
+                            FontFamily="{StaticResource BoldFont}" 
+                            Clicked="Button_Clicked_GivingNav"/>
+                    
                 </StackLayout>
             </ContentPage.Content>
         </ContentPage>

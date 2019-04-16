@@ -5,7 +5,83 @@
              BackgroundColor="Gray"
              Title="Groups"
              ControlTemplate="{StaticResource ThemeMaster}">
-    
-    <ContentPage.Content>
-    </ContentPage.Content>
+
+    <StackLayout>
+        <ScrollView>
+
+            <Grid x:Name="grid" ColumnSpacing="0" RowSpacing="0" BackgroundColor="Black">
+                <!--Defines how many Rows there are in the grid layout-->
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <!--Defines how many Columns there are in the grid layout-->
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!--Row 1-->
+                <Label Text="Test Line (Avenir Regular)" 
+                       StyleClass="lineText" 
+                       FontFamily="{StaticResource NormalFont}" 
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" 
+                       Grid.Row="1" 
+                       Grid.Column="0" 
+                       Grid.ColumnSpan="5"/>
+
+                <!--Row 2-->
+                <Label Text="Test Line (Avenir Bold)" 
+                       StyleClass="lineText" 
+                       FontFamily="{StaticResource BoldFont}" 
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"
+                       Grid.Row="2" 
+                       Grid.Column="0" 
+                       Grid.ColumnSpan="5"/>
+
+                <!--Row 3-->
+                <Label Text="Test Line (Avenir Bold Narrow)" 
+                       StyleClass="lineText" 
+                       FontFamily="{StaticResource NarrowBoldFont}" 
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" 
+                       Grid.Row="3" 
+                       Grid.Column="0" 
+                       Grid.ColumnSpan="5"/>
+
+                <!--Row 4-->
+                <Label Text="Test Line (Avenir Italic)" 
+                       StyleClass="lineText" 
+                       FontFamily="{StaticResource ItalicFont}" 
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" 
+                       Grid.Row="4" 
+                       Grid.Column="0" 
+                       Grid.ColumnSpan="5"/>
+
+                <!--Row 5-->
+                <Button Text="test"
+                        StyleClass="lineText" 
+                        FontFamily="{StaticResource ItalicFont}" 
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" 
+                        Grid.Row="5" 
+                        Grid.Column="0" 
+                        Grid.ColumnSpan="5"/>
+
+            </Grid>
+        </ScrollView>
+    </StackLayout>
 </ContentPage>

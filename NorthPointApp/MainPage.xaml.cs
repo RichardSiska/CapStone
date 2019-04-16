@@ -13,5 +13,10 @@ namespace NorthPointApp
         {
             InitializeComponent();
         }
+
+        private void Button_Clicked_Redirect(object sender, EventArgs e)
+        {
+            Device.OpenUri(new Uri("https://www.northpointchurch.tv"));
+        }
     }
 }
