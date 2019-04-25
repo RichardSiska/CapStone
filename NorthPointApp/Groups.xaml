@@ -33,7 +33,7 @@
 
                 <!--Row 1-->
                 <Label Text="Test Line (Avenir Regular)" 
-                       StyleClass="lineText" 
+                       Style="{StaticResource LineText1}" 
                        FontFamily="{StaticResource NormalFont}" 
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand" 
@@ -43,7 +43,7 @@
 
                 <!--Row 2-->
                 <Label Text="Test Line (Avenir Bold)" 
-                       StyleClass="lineText" 
+                       Style="{StaticResource LineText1}" 
                        FontFamily="{StaticResource BoldFont}" 
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand"
@@ -53,7 +53,7 @@
 
                 <!--Row 3-->
                 <Label Text="Test Line (Avenir Bold Narrow)" 
-                       StyleClass="lineText" 
+                      Style="{StaticResource LineText1}" 
                        FontFamily="{StaticResource NarrowBoldFont}" 
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand" 
@@ -63,7 +63,7 @@
 
                 <!--Row 4-->
                 <Label Text="Test Line (Avenir Italic)" 
-                       StyleClass="lineText" 
+                       Style="{StaticResource LineText1}" 
                        FontFamily="{StaticResource ItalicFont}" 
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand" 
@@ -73,7 +73,7 @@
 
                 <!--Row 5-->
                 <Button Text="test"
-                        StyleClass="lineText" 
+                        
                         FontFamily="{StaticResource ItalicFont}" 
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand" 

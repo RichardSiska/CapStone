@@ -28,14 +28,24 @@
                 <Setter Property="BarTextColor" Value="White"/>
             </Style>
             
+            <!--Line Text Styling-->
+            <Style x:Key="LineText1" TargetType="Label">
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="FontSize" Value="Medium"/>
+            </Style>
+            
             <!--Button Styling-->
-            <Style TargetType="Button" x:Name="NavButton">
-                <Setter Property="CornerRadius" Value="20"/>
+            <Style x:Key="NavButton1" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="TextColor" Value="Black"/>
             </Style>
 
-            <!--External Stylesheet used to reduce code redundancy -->
-            <StyleSheet Source="Styles/NorthPointStyleSheet.css"/>
-            
+            <Style x:Key="NavButton2" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="DimGray"/>
+                <Setter Property="TextColor" Value="White"/>
+            </Style>
+
             <!--Control Template used to add The North Point logo across multiple pages-->
             <ControlTemplate x:Key="ThemeMaster">
                 <!--Northpoint Logo and and Stack Decoration-->

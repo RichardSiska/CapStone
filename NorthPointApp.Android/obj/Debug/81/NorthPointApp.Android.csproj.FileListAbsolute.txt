@@ -119,8 +119,11 @@ C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\splashlogosm
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\safeplacebacklr.png
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\buildingbacklr.png
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\givinglr.png
-C:\CapREPO\CapStone\NorthPointApp\bin\Debug\netstandard2.0\NorthPointApp.dll
-C:\CapREPO\CapStone\NorthPointApp.Android\bin\Debug\NorthPointApp.dll.mdb
+C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable-hdpi\splashlogoclr.9.png
+C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable-mdpi\splashlogoclr.9.png
+C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable-xhdpi\splashlogoclr.9.png
+C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable-xxhdpi\splashlogoclr.9.png
+C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable-xxxhdpi\splashlogoclr.9.png
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\linksrc\FormsViewGroup.dll.mdb
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\linksrc\NorthPointApp.dll.mdb
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

@@ -20,20 +20,14 @@ namespace NorthPointApp.Droid
 
     public class AndroidSplashScreenActivity : Activity
     {
-        static readonly string TAG = "X:" + typeof(AndroidSplashScreenActivity).Name;
+        //static readonly string TAG = "X:" + typeof(AndroidSplashScreenActivity);
 
-        public override void OnCreate(Bundle savedInstanceState, PersistableBundle persistentState)
+        protected override void OnCreate(Bundle savedInstanceState)
         {
-            base.OnCreate(savedInstanceState, persistentState);
-            Log.Debug(TAG, "SplashActivity.OnCreate");
-        }
-
-        // Launches the startup task
-        protected override void OnResume()
-        {
-            base.OnResume();
-            Task startupWork = new Task(() => { StartActivity(new Intent(Application.Context, typeof(MainActivity))); });
-            startupWork.Start();
+            base.OnCreate(savedInstanceState);
+            StartActivity(typeof(MainActivity));
+            Finish();
+            OverridePendingTransition(0,0);
         }
 
     }

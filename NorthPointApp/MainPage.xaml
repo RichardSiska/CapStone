@@ -7,10 +7,10 @@
              ControlTemplate="{StaticResource ThemeMaster}"
              >
 
-    <StackLayout>
+    <StackLayout Spacing="0">
+        <!--ScrollView that contains a Grid (used for a scrollable grid)-->
         <ScrollView>
-
-            <Grid x:Name="grid" ColumnSpacing="0" RowSpacing="0" BackgroundColor="Black">
+            <Grid x:Name="Grid" ColumnSpacing="0" RowSpacing="0" BackgroundColor="Black">
                 <!--Defines how many Rows there are in the grid layout-->
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -33,7 +33,7 @@
                 </Grid.ColumnDefinitions>
 
                 <!--Row 1-->
-
+                
                 <Image Source="SafePlaceBackLR.png" 
                        Scale="1"  
                        VerticalOptions="CenterAndExpand" 
@@ -52,8 +52,7 @@
                        Grid.RowSpan="1"
                        Grid.ColumnSpan="5"/>
 
-                <!--Row 2-->
-
+                <!--Row 2 & 3-->
                 <Image Source="BuildingBackLR.png" 
                        Scale="1.9"
                        VerticalOptions="CenterAndExpand" 
@@ -64,7 +63,7 @@
                        Grid.ColumnSpan="5"/>
 
                 <Label Text="Test Line (Avenir Regular)" 
-                       StyleClass="lineText" 
+                       Style="{StaticResource LineText1}" 
                        FontFamily="{StaticResource NormalFont}" 
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand" 
@@ -74,7 +73,7 @@
                        Grid.ColumnSpan="5"/>
 
                 <Label Text="Test Line 2 (Avenir Regular)" 
-                       StyleClass="lineText" 
+                      Style="{StaticResource LineText1}" 
                        FontFamily="{StaticResource NormalFont}" 
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand" 
@@ -83,8 +82,7 @@
                        Grid.RowSpan="1"
                        Grid.ColumnSpan="5"/>
 
-                <!--Row 3-->
-
+                <!--Row 4-->
                 <Image Source="givingLR.png" 
                        Scale="1"
                        VerticalOptions="CenterAndExpand" 
@@ -94,7 +92,7 @@
                        Grid.ColumnSpan="5"/>
 
                 <Label Text="Test Line (Avenir Bold)" 
-                       StyleClass="lineText" 
+                       Style="{StaticResource LineText1}" 
                        FontFamily="{StaticResource BoldFont}" 
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand"
@@ -102,9 +100,9 @@
                        Grid.Column="0" 
                        Grid.ColumnSpan="5"/>
 
-                <!--Row 4-->
+                <!--Row 5-->
                 <Label Text="Test Line (Avenir Bold Narrow)" 
-                       StyleClass="lineText" 
+                       Style="{StaticResource LineText1}" 
                        FontFamily="{StaticResource NarrowBoldFont}" 
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand" 
@@ -112,19 +110,19 @@
                        Grid.Column="0" 
                        Grid.ColumnSpan="5"/>
 
-                <!--Row 5-->
+                <!--Row 6-->
                 <Label Text="Test Line (Avenir Italic)" 
-                       StyleClass="lineText" 
+                       Style="{StaticResource LineText1}" 
                        FontFamily="{StaticResource ItalicFont}" 
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand" 
                        Grid.Row="5" 
                        Grid.Column="0" 
                        Grid.ColumnSpan="5"/>
-                
-                <!--Row 6-->
+
+                <!--Row 7-->
                 <Button Text="North Point Redirect" Clicked="Button_Clicked_Redirect"
-                        StyleClass="lineText" 
+                        
                         FontFamily="{StaticResource ItalicFont}" 
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand" 

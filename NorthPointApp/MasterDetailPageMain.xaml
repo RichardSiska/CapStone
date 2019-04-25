@@ -8,28 +8,33 @@
      
     <!--Master (Sidebar Navigation) -->
     <MasterDetailPage.Master>
-        <ContentPage Padding="2" BackgroundColor="White" Title="Master" >
+        <ContentPage Padding="2" BackgroundImage="" Title="Master" >
             <ContentPage.Content>
-                <StackLayout BackgroundColor="Black">
+                <StackLayout BackgroundColor="Black" Spacing="10">
                     
-                    <Label Text="Page Navigation" 
-                           StyleClass="lineText" 
+                    <Label Text="Page Navigation"
+                           Margin="15"
+                           VerticalOptions="Center"
+                           Style="{StaticResource LineText1}" 
                            FontFamily="{StaticResource BoldFont}" />
                     
                     <Button Text="Home"
+                            Style="{StaticResource NavButton1}"
                             FontFamily="{StaticResource BoldFont}" 
                             Clicked="Button_Clicked_HomeNav"/>
                     
                     <Button Text="Groups"
+                            Style="{StaticResource NavButton2}"
                             FontFamily="{StaticResource BoldFont}" 
                             Clicked="Button_Clicked_GroupsNav"/>
                     
                     <Button Text="Events"
+                            Style="{StaticResource NavButton1}"
                             FontFamily="{StaticResource BoldFont}" 
                             Clicked="Button_Clicked_EventsNav"/>
                     
                     <Button Text="Giving"
-                            x:Name="NavButton"
+                            Style="{StaticResource NavButton2}"
                             FontFamily="{StaticResource BoldFont}" 
                             Clicked="Button_Clicked_GivingNav"/>
                     
