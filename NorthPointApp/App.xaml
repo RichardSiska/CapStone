@@ -73,9 +73,50 @@
             <ControlTemplate x:Key="ThemeMaster">
                 <!--Northpoint Logo and and Stack Decoration-->
                 <StackLayout Spacing="0">
-                    <BoxView BackgroundColor="White" WidthRequest="50" HeightRequest="3"></BoxView>
-                    <Image Source="NorthPointCrowdLogoFull.png" Scale="1"/>
-                    <BoxView BackgroundColor="White" WidthRequest="50" HeightRequest="3"></BoxView>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        
+
+                        <StackLayout Spacing="0" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="5" Grid.RowSpan="1">
+                            
+                            <BoxView BackgroundColor="White" 
+                                     WidthRequest="50" 
+                                     HeightRequest="2"></BoxView>
+                            
+                            <Image Source="NorthPointCrowdLogoFullLR.png"
+                                   HorizontalOptions="CenterAndExpand"
+                                   VerticalOptions="CenterAndExpand"
+                                   Scale="1"/>
+                            
+                            <BoxView BackgroundColor="White" 
+                                     WidthRequest="50" 
+                                     HeightRequest="2"></BoxView>
+                            
+                        </StackLayout>
+
+                        <ImageButton Scale=".75"
+                                     TranslationY="4"
+                                     Source="hamburger.png" 
+                                     BackgroundColor="Transparent" 
+                                     Grid.Column="0" Grid.Row="0" 
+                                     Grid.ColumnSpan="1" 
+                                     Grid.RowSpan="1"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     Clicked="ImageButton_Clicked"/>
+
+                    </Grid>
                     <ContentPresenter/>
                 </StackLayout>
             </ControlTemplate>

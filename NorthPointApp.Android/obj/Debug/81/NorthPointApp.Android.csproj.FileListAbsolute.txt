@@ -125,6 +125,5 @@ C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\buildingback
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\givinglr.png
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\logobackgroundwhitelr.png
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\logobackgroundblacklr.png
-C:\CapREPO\CapStone\NorthPointApp\bin\Debug\netstandard2.0\NorthPointApp.dll
-C:\CapREPO\CapStone\NorthPointApp.Android\bin\Debug\NorthPointApp.dll.mdb
+C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\northpointcrowdlogofulllr.png
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\linksrc\NorthPointApp.dll.mdb

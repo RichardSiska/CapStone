@@ -28,5 +28,10 @@ namespace NorthPointApp
         {
             // Handle when your app resumes
         }
+
+        private void ImageButton_Clicked(object sender, EventArgs e)
+        {
+            (App.Current.MainPage as MasterDetailPage).IsPresented = true;
+        }
     }
 }
