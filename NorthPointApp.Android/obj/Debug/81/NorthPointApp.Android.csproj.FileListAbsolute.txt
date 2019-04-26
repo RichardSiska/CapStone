@@ -38,11 +38,7 @@ C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\R.cs.flag
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\R.txt
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\uploadflags.txt
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\northpointfullblk.png
-C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\northpointblk.png
-C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\northpointwht.png
-C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\northpointclr.png
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\northpointfullwht.png
-C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\northpointblkwht.png
 C:\CapREPO\CapStone\NorthPointApp.Android\bin\Debug\Mono.Android.pdb
 C:\CapREPO\CapStone\NorthPointApp.Android\bin\Debug\mscorlib.pdb
 C:\CapREPO\CapStone\NorthPointApp.Android\bin\Debug\System.Core.pdb
@@ -69,10 +65,6 @@ C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\northpointsa
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\splash_screen.xml
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\northpointclrsmall.png
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\northpointcrowdlogofull.png
-C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\splashlogosmll.png
-C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\safeplacebacklr.png
-C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\buildingbacklr.png
-C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\givinglr.png
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable-hdpi\splashlogoclr.9.png
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable-mdpi\splashlogoclr.9.png
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable-xhdpi\splashlogoclr.9.png
@@ -128,4 +120,11 @@ C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\android\assets\System.Xml
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\safeplacebacklr.png
+C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\buildingbacklr.png
+C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\givinglr.png
+C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\logobackgroundwhitelr.png
+C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\logobackgroundblacklr.png
+C:\CapREPO\CapStone\NorthPointApp\bin\Debug\netstandard2.0\NorthPointApp.dll
+C:\CapREPO\CapStone\NorthPointApp.Android\bin\Debug\NorthPointApp.dll.mdb
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\linksrc\NorthPointApp.dll.mdb

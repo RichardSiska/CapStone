@@ -29,12 +29,27 @@
             </Style>
             
             <!--Line Text Styling-->
-            <Style x:Key="LineText1" TargetType="Label">
+            <Style x:Key="LineTextWhite" TargetType="Label">
                 <Setter Property="TextColor" Value="White"/>
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>
                 <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="Margin" Value="20"/>
             </Style>
-            
+
+            <Style x:Key="LineTextBlack" TargetType="Label">
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="Margin" Value="20"/>
+            </Style>
+
+            <Style x:Key="LineTextBlackHead" TargetType="Label">
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="FontSize" Value="Large"/>
+                <Setter Property="Margin" Value="20"/>
+            </Style>
+
             <!--Button Styling-->
             <Style x:Key="NavButton1" TargetType="Button">
                 <Setter Property="BackgroundColor" Value="White"/>
@@ -46,13 +61,20 @@
                 <Setter Property="TextColor" Value="White"/>
             </Style>
 
+            <Style x:Key="MainButton1" TargetType="Button">
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="BackgroundColor" Value="Red"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="CornerRadius" Value="25"/>
+                <Setter Property="Padding" Value="30 , 10 ,30 ,10"/>
+            </Style>
+
             <!--Control Template used to add The North Point logo across multiple pages-->
             <ControlTemplate x:Key="ThemeMaster">
                 <!--Northpoint Logo and and Stack Decoration-->
                 <StackLayout Spacing="0">
                     <BoxView BackgroundColor="White" WidthRequest="50" HeightRequest="3"></BoxView>
                     <Image Source="NorthPointCrowdLogoFull.png" Scale="1"/>
-                    <ImageButton Source="hamburger.png" Scale="1.2" BackgroundColor="Transparent"/>
                     <BoxView BackgroundColor="White" WidthRequest="50" HeightRequest="3"></BoxView>
                     <ContentPresenter/>
                 </StackLayout>

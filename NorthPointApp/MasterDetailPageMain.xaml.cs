@@ -21,7 +21,9 @@ namespace NorthPointApp
 
             Detail = new NavigationPage(new MainPage { });
 
-            IsPresented = false;
+            
+
+             IsPresented = false;
         }
 
         private void Button_Clicked_HomeNav(object sender, EventArgs e)

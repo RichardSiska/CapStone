@@ -16,7 +16,7 @@
                     <Label Text="Page Navigation"
                            Margin="15"
                            VerticalOptions="Center"
-                           Style="{StaticResource LineText1}" 
+                           Style="{StaticResource LineTextWhite}" 
                            FontFamily="{StaticResource BoldFont}" />
                     
                     <Button Text="Home"

@@ -32,8 +32,18 @@
                 </Grid.ColumnDefinitions>
 
                 <!--Row 1-->
+
+                <Image Source="LogoBackgroundWhiteLR.png" 
+                       Scale="1"  
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"  
+                       Grid.Row="0" 
+                       Grid.Column="0"
+                       Grid.RowSpan="1"
+                       Grid.ColumnSpan="5"/>
+
                 <Label Text="Test Line (Avenir Regular)" 
-                       Style="{StaticResource LineText1}" 
+                       Style="{StaticResource LineTextBlack}" 
                        FontFamily="{StaticResource NormalFont}" 
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand" 
@@ -42,8 +52,18 @@
                        Grid.ColumnSpan="5"/>
 
                 <!--Row 2-->
+
+                <Image Source="LogoBackgroundBlackLR.png" 
+                       Scale="1"  
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"  
+                       Grid.Row="1" 
+                       Grid.Column="0"
+                       Grid.RowSpan="1"
+                       Grid.ColumnSpan="5"/>
+
                 <Label Text="Test Line (Avenir Bold)" 
-                       Style="{StaticResource LineText1}" 
+                       Style="{StaticResource LineTextWhite}" 
                        FontFamily="{StaticResource BoldFont}" 
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand"
@@ -52,8 +72,19 @@
                        Grid.ColumnSpan="5"/>
 
                 <!--Row 3-->
+
+
+                <Image Source="LogoBackgroundWhiteLR.png" 
+                       Scale="1"  
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"  
+                       Grid.Row="2" 
+                       Grid.Column="0"
+                       Grid.RowSpan="1"
+                       Grid.ColumnSpan="5"/>
+
                 <Label Text="Test Line (Avenir Bold Narrow)" 
-                       Style="{StaticResource LineText1}" 
+                       Style="{StaticResource LineTextBlack}" 
                        FontFamily="{StaticResource NarrowBoldFont}" 
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand" 
@@ -63,7 +94,7 @@
 
                 <!--Row 4-->
                 <Label Text="Test Line (Avenir Italic)" 
-                       Style="{StaticResource LineText1}" 
+                       Style="{StaticResource LineTextWhite}" 
                        FontFamily="{StaticResource ItalicFont}" 
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand" 

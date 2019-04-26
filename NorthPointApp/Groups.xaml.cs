@@ -11,8 +11,7 @@ namespace NorthPointApp
         {
             InitializeComponent();
 
-            NavigationPage.SetHasNavigationBar(this, false);
-            NavigationPage.SetHasBackButton(this, false);
+            
         }
     }
 }
