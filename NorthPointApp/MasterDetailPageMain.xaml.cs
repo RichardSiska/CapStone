@@ -8,12 +8,15 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace NorthPointApp
+
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MasterDetailPageMain : MasterDetailPage
     {
         public MasterDetailPageMain()
         {
+           
+
             InitializeComponent();
 
             Detail = new NavigationPage(new MainPage { });

@@ -52,3 +52,10 @@ C:\CapREPO\CapStone\NorthPointApp\obj\Debug\netstandard2.0\NorthPointApp.Assembl
 C:\CapREPO\CapStone\NorthPointApp\obj\Debug\netstandard2.0\NorthPointApp.dll
 C:\CapREPO\CapStone\NorthPointApp\obj\Debug\netstandard2.0\NorthPointApp.pdb
 C:\CapREPO\CapStone\NorthPointApp\obj\Debug\netstandard2.0\NorthPointApp.csprojAssemblyReference.cache
+C:\CapREPO\CapStone\NorthPointApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\CapREPO\CapStone\NorthPointApp\obj\Debug\netstandard2.0\Events.xaml.g.cs
+C:\CapREPO\CapStone\NorthPointApp\obj\Debug\netstandard2.0\Giving.xaml.g.cs
+C:\CapREPO\CapStone\NorthPointApp\obj\Debug\netstandard2.0\Groups.xaml.g.cs
+C:\CapREPO\CapStone\NorthPointApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\CapREPO\CapStone\NorthPointApp\obj\Debug\netstandard2.0\MasterDetailPageMain.xaml.g.cs
+C:\CapREPO\CapStone\NorthPointApp\obj\Debug\netstandard2.0\XamlC.stamp

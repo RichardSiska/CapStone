@@ -4,7 +4,8 @@
              x:Class="NorthPointApp.MasterDetailPageMain"
              xmlns:pages="clr-namespace:NorthPointApp"
              Title="Master Page"
-             MasterBehavior="Popover">
+             MasterBehavior="Popover"
+             >
      
     <!--Master (Sidebar Navigation) -->
     <MasterDetailPage.Master>

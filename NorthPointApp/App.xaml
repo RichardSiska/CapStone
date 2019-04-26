@@ -49,12 +49,12 @@
             <!--Control Template used to add The North Point logo across multiple pages-->
             <ControlTemplate x:Key="ThemeMaster">
                 <!--Northpoint Logo and and Stack Decoration-->
-                <StackLayout VerticalOptions="StartAndExpand" Spacing="0">
+                <StackLayout Spacing="0">
                     <BoxView BackgroundColor="White" WidthRequest="50" HeightRequest="3"></BoxView>
                     <Image Source="NorthPointCrowdLogoFull.png" Scale="1"/>
+                    <ImageButton Source="hamburger.png" Scale="1.2" BackgroundColor="Transparent"/>
                     <BoxView BackgroundColor="White" WidthRequest="50" HeightRequest="3"></BoxView>
-                    <ContentPresenter>
-                    </ContentPresenter>
+                    <ContentPresenter/>
                 </StackLayout>
             </ControlTemplate>
 

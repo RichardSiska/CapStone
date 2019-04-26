@@ -10,6 +10,9 @@ namespace NorthPointApp
         public Groups()
         {
             InitializeComponent();
+
+            NavigationPage.SetHasNavigationBar(this, false);
+            NavigationPage.SetHasBackButton(this, false);
         }
     }
 }

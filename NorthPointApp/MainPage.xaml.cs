@@ -12,6 +12,9 @@ namespace NorthPointApp
         public MainPage()
         {
             InitializeComponent();
+
+            NavigationPage.SetHasNavigationBar(this, false);
+            NavigationPage.SetHasBackButton(this, false);
         }
 
         private void Button_Clicked_Redirect(object sender, EventArgs e)
