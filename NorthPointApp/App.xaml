@@ -86,8 +86,6 @@
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
 
-                        
-
                         <StackLayout Spacing="0" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="5" Grid.RowSpan="1">
                             
                             <BoxView BackgroundColor="White" 
@@ -105,8 +103,9 @@
                             
                         </StackLayout>
 
-                        <ImageButton Scale=".75"
+                        <ImageButton Scale=".80"
                                      TranslationY="4"
+                                     TranslationX="-7"
                                      Source="hamburger.png" 
                                      BackgroundColor="Transparent" 
                                      Grid.Column="0" Grid.Row="0" 

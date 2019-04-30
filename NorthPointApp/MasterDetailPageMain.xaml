@@ -11,14 +11,8 @@
     <MasterDetailPage.Master>
         <ContentPage Padding="2" BackgroundImage="" Title="Master" >
             <ContentPage.Content>
-                <StackLayout BackgroundColor="Black" Spacing="10">
-                    
-                    <Label Text="Page Navigation"
-                           Margin="15"
-                           VerticalOptions="Center"
-                           Style="{StaticResource LineTextWhite}" 
-                           FontFamily="{StaticResource BoldFont}" />
-                    
+                <StackLayout BackgroundColor="#2C2D2F" Spacing="0">
+
                     <Button Text="Home"
                             Style="{StaticResource NavButton1}"
                             FontFamily="{StaticResource BoldFont}" 
@@ -45,7 +39,7 @@
     </MasterDetailPage.Master>
     
     <!--Detail (Page Content)
-    This is empty due to page delcarations made in App.xaml-->
+    This is empty due to page delcarations made in App.xaml and MasterDetailPageMain.xaml.cs-->
     <MasterDetailPage.Detail>
         <ContentPage>
             <ContentPage.Content>

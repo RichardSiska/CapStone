@@ -9,7 +9,7 @@ using Android.OS;
 
 namespace NorthPointApp.Droid
 {
-    [Activity(Label = "NorthPoint Mobile", 
+    [Activity(Label = "North Point Mobile", 
         Icon = "@mipmap/icon", 
         Theme = "@style/MainTheme", 
          

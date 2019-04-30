@@ -158,19 +158,19 @@
     <AndroidResource Include="Resources\drawable\givingLR.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-hdpi\splashlogoclr.9.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\splashlogoclr.9.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-mdpi\splashlogoclr.9.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\splashlogoclr.9.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xhdpi\splashlogoclr.9.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\splashlogoclr.9.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xxhdpi\splashlogoclr.9.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\splashlogoclr.9.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xxxhdpi\splashlogoclr.9.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\splashlogoclr.9.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\LogoBackgroundWhiteLR.png" />
@@ -183,6 +183,16 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\hamburger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\NorthPointLogoIconWht.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\drawable-hdpi\" />
+    <Folder Include="Resources\drawable-mdpi\" />
+    <Folder Include="Resources\drawable-xhdpi\" />
+    <Folder Include="Resources\drawable-xxhdpi\" />
+    <Folder Include="Resources\drawable-xxxhdpi\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

@@ -32,14 +32,25 @@
                 </Grid.ColumnDefinitions>
 
                 <!--Row 1-->
-                <Label Text="Test Line (Avenir Regular)" 
-                       Style="{StaticResource LineTextWhite}" 
-                       FontFamily="{StaticResource NormalFont}" 
+                <ListView
+                       x:Name="lstView" RowHeight="60"
                        VerticalOptions="CenterAndExpand" 
-                       HorizontalOptions="CenterAndExpand" 
-                       Grid.Row="1" 
+                       HorizontalOptions="CenterAndExpand"
+                       Grid.Row="0" 
                        Grid.Column="0" 
-                       Grid.ColumnSpan="5"/>
+                       Grid.ColumnSpan="5">
+
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ImageCell
+                                DetailColor="White"
+                                Text="{Binding Name}"
+                                Detail="{Binding Type}"
+                                ImageSource="NorthPointLogoIconWht.png"
+                            />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
 
                 <!--Row 2-->
                 <Label Text="Test Line (Avenir Bold)" 
@@ -47,7 +58,7 @@
                        FontFamily="{StaticResource BoldFont}" 
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand"
-                       Grid.Row="2" 
+                       Grid.Row="1" 
                        Grid.Column="0" 
                        Grid.ColumnSpan="5"/>
 
@@ -57,7 +68,7 @@
                        FontFamily="{StaticResource NarrowBoldFont}" 
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand" 
-                       Grid.Row="3" 
+                       Grid.Row="2" 
                        Grid.Column="0" 
                        Grid.ColumnSpan="5"/>
 
@@ -67,7 +78,7 @@
                        FontFamily="{StaticResource ItalicFont}" 
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand" 
-                       Grid.Row="4" 
+                       Grid.Row="3" 
                        Grid.Column="0" 
                        Grid.ColumnSpan="5"/>
 
@@ -77,7 +88,7 @@
                         FontFamily="{StaticResource ItalicFont}" 
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand" 
-                        Grid.Row="5" 
+                        Grid.Row="4" 
                         Grid.Column="0" 
                         Grid.ColumnSpan="5"/>
 

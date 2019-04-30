@@ -4945,7 +4945,10 @@ namespace NorthPointApp.Droid
 			public const int NorthPointFullWht = 2130771985;
 			
 			// aapt resource value: 0x7F010012
-			public const int NorthPointSafePlace = 2130771986;
+			public const int NorthPointLogoIconWht = 2130771986;
+			
+			// aapt resource value: 0x7F010013
+			public const int NorthPointSafePlace = 2130771987;
 			
 			// aapt resource value: 0x7F090001
 			public const int notification_action_background = 2131296257;
@@ -4983,14 +4986,11 @@ namespace NorthPointApp.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010013
-			public const int SafePlaceBackLR = 2130771987;
+			// aapt resource value: 0x7F010014
+			public const int SafePlaceBackLR = 2130771988;
 			
 			// aapt resource value: 0x7F010015
-			public const int splashlogoclr = 2130771989;
-			
-			// aapt resource value: 0x7F010014
-			public const int splash_screen = 2130771988;
+			public const int splash_screen = 2130771989;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -5881,6 +5881,9 @@ namespace NorthPointApp.Droid
 			
 			// aapt resource value: 0x7F040004
 			public const int launcher_foreground = 2130968580;
+			
+			// aapt resource value: 0x7F040005
+			public const int splashlogoclr = 2130968581;
 			
 			static Mipmap()
 			{

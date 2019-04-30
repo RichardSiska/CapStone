@@ -13,7 +13,7 @@ using Android.Widget;
 
 namespace NorthPointApp.Droid
 {
-    [Activity(Label = "NorthPoint Mobile", 
+    [Activity(Label = "North Point Mobile", 
         Theme = "@style/MyTheme.Splash", 
         MainLauncher = true, 
         NoHistory = true)]

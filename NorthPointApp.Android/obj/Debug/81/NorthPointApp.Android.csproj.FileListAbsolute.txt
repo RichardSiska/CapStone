@@ -65,11 +65,6 @@ C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\northpointsa
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\splash_screen.xml
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\northpointclrsmall.png
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\northpointcrowdlogofull.png
-C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable-hdpi\splashlogoclr.9.png
-C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable-mdpi\splashlogoclr.9.png
-C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable-xhdpi\splashlogoclr.9.png
-C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable-xxhdpi\splashlogoclr.9.png
-C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable-xxxhdpi\splashlogoclr.9.png
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\XamlC.stamp
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\hamburger.png
 C:\CapREPO\CapStone\NorthPointApp.Android\bin\Debug\FormsViewGroup.pdb
@@ -126,4 +121,10 @@ C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\givinglr.png
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\logobackgroundwhitelr.png
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\logobackgroundblacklr.png
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\northpointcrowdlogofulllr.png
+C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable\northpointlogoiconwht.png
+C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\mipmap-hdpi\splashlogoclr.9.png
+C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\mipmap-mdpi\splashlogoclr.9.png
+C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\mipmap-xhdpi\splashlogoclr.9.png
+C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\mipmap-xxhdpi\splashlogoclr.9.png
+C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\mipmap-xxxhdpi\splashlogoclr.9.png
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\linksrc\NorthPointApp.dll.mdb

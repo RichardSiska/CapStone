@@ -11,7 +11,7 @@
     <StackLayout Spacing="0">
         <!--ScrollView that contains a Grid (used for a scrollable grid)-->
         <ScrollView>
-            <Grid x:Name="Grid" ColumnSpacing="0" RowSpacing="0" BackgroundColor="Black">
+            <Grid x:Name="Grid" ColumnSpacing="0" RowSpacing="0" BackgroundColor="#2C2D2F">
                 <!--Defines how many Rows there are in the grid layout-->
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -20,8 +20,7 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
                 </Grid.RowDefinitions>
 
                 <!--Defines how many Columns there are in the grid layout-->
@@ -113,24 +112,44 @@
                        Grid.ColumnSpan="5"/>
 
                 <!--Row 5-->
-                <Label Text="Test Line (Avenir Italic)" 
-                       Style="{StaticResource LineTextWhite}" 
-                       FontFamily="{StaticResource ItalicFont}" 
-                       VerticalOptions="CenterAndExpand" 
-                       HorizontalOptions="CenterAndExpand" 
-                       Grid.Row="4" 
-                       Grid.Column="0" 
-                       Grid.ColumnSpan="5"/>
-
-                <!--Row 6-->
                 <Button Text="North Point Redirect" Clicked="Button_Clicked_Redirect"
                         Style="{StaticResource MainButton1}"
                         FontFamily="{StaticResource NormalFont}" 
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand" 
-                        Grid.Row="5" 
+                        Grid.Row="4" 
                         Grid.Column="0" 
                         Grid.ColumnSpan="5"/>
+
+                <!--Row 6-->
+                <Image Source="NorthPointLogoIconWht.png" 
+                       Scale=".75"
+                       VerticalOptions="Center" 
+                       HorizontalOptions="Center"  
+                       Grid.Row="5" 
+                       Grid.Column="0" 
+                       Grid.ColumnSpan="5"/>
+
+                <!--Row 7-->
+
+                <BoxView BackgroundColor="SlateGray" 
+                         WidthRequest="1000" 
+                         HeightRequest="1"
+                         VerticalOptions="Start" 
+                         HorizontalOptions="Center" 
+                         Grid.Row="6" 
+                         Grid.Column="0" 
+                         Grid.ColumnSpan="5"/>
+
+                <Label Text="Test Line (Avenir Bold Narrow)" 
+                       Style="{StaticResource LineTextWhite}"
+                       FontSize="Micro"
+                       FontFamily="{StaticResource NarrowBoldFont}" 
+                       VerticalOptions="End" 
+                       HorizontalOptions="Center" 
+                       Grid.Row="6" 
+                       Grid.Column="0" 
+                       Grid.ColumnSpan="5"/>
 
             </Grid>
         </ScrollView>
