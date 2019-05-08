@@ -4327,7 +4327,10 @@ namespace NorthPointApp.Droid
 			public const int givingLR = 2130771971;
 			
 			// aapt resource value: 0x7F010004
-			public const int hamburger = 2130771972;
+			public const int GryBack = 2130771972;
+			
+			// aapt resource value: 0x7F010005
+			public const int hamburger = 2130771973;
 			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
@@ -4860,11 +4863,11 @@ namespace NorthPointApp.Droid
 			// aapt resource value: 0x7F090104
 			public const int ic_vol_type_tv_light = 2131296516;
 			
-			// aapt resource value: 0x7F010005
-			public const int LogoBackgroundBlackLR = 2130771973;
-			
 			// aapt resource value: 0x7F010006
-			public const int LogoBackgroundWhiteLR = 2130771974;
+			public const int LogoBackgroundBlackLR = 2130771974;
+			
+			// aapt resource value: 0x7F010007
+			public const int LogoBackgroundWhiteLR = 2130771975;
 			
 			// aapt resource value: 0x7F090105
 			public const int mr_button_connected_dark = 2131296517;
@@ -4929,26 +4932,26 @@ namespace NorthPointApp.Droid
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
 			
-			// aapt resource value: 0x7F010007
-			public const int NorthPointClrSmall = 2130771975;
-			
 			// aapt resource value: 0x7F010008
-			public const int NorthPointCrowdLogoFull = 2130771976;
+			public const int NorthPointClrSmall = 2130771976;
 			
 			// aapt resource value: 0x7F010009
-			public const int NorthPointCrowdLogoFullLR = 2130771977;
+			public const int NorthPointCrowdLogoFull = 2130771977;
 			
 			// aapt resource value: 0x7F010010
-			public const int NorthPointFullBlk = 2130771984;
+			public const int NorthPointCrowdLogoFullLR = 2130771984;
 			
 			// aapt resource value: 0x7F010011
-			public const int NorthPointFullWht = 2130771985;
+			public const int NorthPointFullBlk = 2130771985;
 			
 			// aapt resource value: 0x7F010012
-			public const int NorthPointLogoIconWht = 2130771986;
+			public const int NorthPointFullWht = 2130771986;
 			
 			// aapt resource value: 0x7F010013
-			public const int NorthPointSafePlace = 2130771987;
+			public const int NorthPointLogoIconWht = 2130771987;
+			
+			// aapt resource value: 0x7F010014
+			public const int NorthPointSafePlace = 2130771988;
 			
 			// aapt resource value: 0x7F090001
 			public const int notification_action_background = 2131296257;
@@ -4986,11 +4989,14 @@ namespace NorthPointApp.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010014
-			public const int SafePlaceBackLR = 2130771988;
-			
 			// aapt resource value: 0x7F010015
-			public const int splash_screen = 2130771989;
+			public const int POINTMAKERS = 2130771989;
+			
+			// aapt resource value: 0x7F010016
+			public const int SafePlaceBackLR = 2130771990;
+			
+			// aapt resource value: 0x7F010017
+			public const int splash_screen = 2130771991;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;

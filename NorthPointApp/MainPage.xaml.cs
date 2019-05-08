@@ -16,11 +16,8 @@ namespace NorthPointApp
             NavigationPage.SetHasNavigationBar(this, false);
             NavigationPage.SetHasBackButton(this, false);
         }
-
-
-        private void Button_Clicked_Redirect(object sender, EventArgs e)
-        {
-            Device.OpenUri(new Uri("https://www.northpointchurch.tv"));
-        }
+        
+        //Device.OpenUri(new Uri("https://www.northpointchurch.tv"));
+        
     }
 }
