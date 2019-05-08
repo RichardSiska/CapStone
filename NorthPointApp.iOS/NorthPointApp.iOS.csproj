@@ -112,6 +112,9 @@
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\SafePlaceBackLR.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\LaunchImages.launchimage\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
@@ -155,6 +158,15 @@
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\SafePlaceBackLR.imageset\SafePlaceBackLR.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\SafePlaceBackLR.imageset\SafePlaceBackLR@2x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\SafePlaceBackLR.imageset\SafePlaceBackLR@3x.png">
       <Visible>false</Visible>
     </ImageAsset>
   </ItemGroup>
