@@ -26,7 +26,7 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Xamarin.Forms/3.5.0.169047": {
+      "Xamarin.Forms/3.6.0.344457": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -42,12 +42,26 @@
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
         }
+      },
+      "Xamvvm.Forms/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.446417"
+        },
+        "compile": {
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+netstandard1.0/Xamvvm.Core.dll": {},
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+netstandard1.0/Xamvvm.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+netstandard1.0/Xamvvm.Core.dll": {},
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+netstandard1.0/Xamvvm.Forms.dll": {}
+        }
       }
     }
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -189,13 +203,14 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Xamarin.Forms/3.5.0.169047": {
-      "sha512": "bDUiWsvlU949lyf8gw5ROVQ0kRr1dB8daiWATYCXuOXv/iODsbq/8NmNVxhV2WbOo8b8wJMe7SqZG4V/CQlYuQ==",
+    "Xamarin.Forms/3.6.0.344457": {
+      "sha512": "7IffIKgL0fmgbfCLKzXaFKJ7uOueKiz/BIgmAG1Z5WMn+vMKeALe5GgRs3Uddo670VzllIHWkNEZD3lG+e02bw==",
       "type": "package",
-      "path": "xamarin.forms/3.5.0.169047",
+      "path": "xamarin.forms/3.6.0.344457",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "build/MonoAndroid10/proguard.cfg",
         "build/Xamarin.Forms.DefaultItems.props",
         "build/Xamarin.Forms.DefaultItems.targets",
         "build/Xamarin.Forms.props",
@@ -349,35 +364,50 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.5.0.169047.nupkg.sha512",
+        "xamarin.forms.3.6.0.344457.nupkg.sha512",
         "xamarin.forms.nuspec"
+      ]
+    },
+    "Xamvvm.Forms/1.0.5": {
+      "sha512": "Ru2+HCfRLUaRsZiezos7rx8LFSW1WRcHJZrYhNJzqkItImqJ8zmPP8reBfBdtnWmqd25B/8iGSVcLb+Sh6eM0A==",
+      "type": "package",
+      "path": "xamvvm.forms/1.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+netstandard1.0/Xamvvm.Core.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+netstandard1.0/Xamvvm.Core.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+netstandard1.0/Xamvvm.Forms.dll",
+        "xamvvm.forms.1.0.5.nupkg.sha512",
+        "xamvvm.forms.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
-      "Xamarin.Forms >= 3.5.0.169047"
+      "Xamarin.Forms >= 3.6.0.344457",
+      "Xamvvm.Forms >= 1.0.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\richardsiska\\.nuget\\packages\\": {},
+    "C:\\Users\\Ragel\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\Mac\\Home\\Desktop\\XamDev\\CapStone\\NorthPointApp\\NorthPointApp.csproj",
+      "projectUniqueName": "C:\\CapREPO\\CapStone\\NorthPointApp\\NorthPointApp.csproj",
       "projectName": "NorthPointApp",
-      "projectPath": "\\\\Mac\\Home\\Desktop\\XamDev\\CapStone\\NorthPointApp\\NorthPointApp.csproj",
-      "packagesPath": "C:\\Users\\richardsiska\\.nuget\\packages\\",
-      "outputPath": "\\\\Mac\\Home\\Desktop\\XamDev\\CapStone\\NorthPointApp\\obj\\",
+      "projectPath": "C:\\CapREPO\\CapStone\\NorthPointApp\\NorthPointApp.csproj",
+      "packagesPath": "C:\\Users\\Ragel\\.nuget\\packages\\",
+      "outputPath": "C:\\CapREPO\\CapStone\\NorthPointApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\richardsiska\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ragel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -409,7 +439,11 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.5.0.169047, )"
+            "version": "[3.6.0.344457, )"
+          },
+          "Xamvvm.Forms": {
+            "target": "Package",
+            "version": "[1.0.5, )"
           }
         },
         "imports": [

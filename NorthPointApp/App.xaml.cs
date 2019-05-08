@@ -11,7 +11,7 @@ namespace NorthPointApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new MasterDetailPageMain();
         }
 
         protected override void OnStart()
@@ -27,6 +27,11 @@ namespace NorthPointApp
         protected override void OnResume()
         {
             // Handle when your app resumes
+        }
+
+        private void ImageButton_Clicked(object sender, EventArgs e)
+        {
+            (App.Current.MainPage as MasterDetailPage).IsPresented = true;
         }
     }
 }

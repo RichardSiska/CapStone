@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NorthPointApp.MasterDetailPageMain"
+             xmlns:pages="clr-namespace:NorthPointApp"
+             Title="Master Page"
+             MasterBehavior="Popover"
+             >
+     
+    <!--Master (Sidebar Navigation) -->
+    <MasterDetailPage.Master>
+        <ContentPage Padding="2" BackgroundImage="" Title="Master" >
+            <ContentPage.Content>
+                <StackLayout BackgroundColor="#2C2D2F" Spacing="0">
+
+                    <Button Text="Home"
+                            Style="{StaticResource NavButton1}"
+                            FontFamily="{StaticResource BoldFont}" 
+                            Clicked="Button_Clicked_HomeNav"/>
+                    
+                    <Button Text="Groups"
+                            Style="{StaticResource NavButton2}"
+                            FontFamily="{StaticResource BoldFont}" 
+                            Clicked="Button_Clicked_GroupsNav"/>
+                    
+                    <Button Text="Events"
+                            Style="{StaticResource NavButton1}"
+                            FontFamily="{StaticResource BoldFont}" 
+                            Clicked="Button_Clicked_EventsNav"/>
+                    
+                    <Button Text="Giving"
+                            Style="{StaticResource NavButton2}"
+                            FontFamily="{StaticResource BoldFont}" 
+                            Clicked="Button_Clicked_GivingNav"/>
+                    
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    
+    <!--Detail (Page Content)
+    This is empty due to page delcarations made in App.xaml and MasterDetailPageMain.xaml.cs-->
+    <MasterDetailPage.Detail>
+        <ContentPage>
+            <ContentPage.Content>
+                <StackLayout>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+    
+</MasterDetailPage>

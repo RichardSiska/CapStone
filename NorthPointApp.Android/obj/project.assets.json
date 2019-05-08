@@ -122,6 +122,21 @@
           "build/monoandroid81/Xamarin.Android.Support.Core.Utils.targets": {}
         }
       },
+      "Xamarin.Android.Support.CustomTabs/28.0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Compat": "[28.0.0.1]"
+        },
+        "compile": {
+          "lib/monoandroid81/Xamarin.Android.Support.CustomTabs.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid81/Xamarin.Android.Support.CustomTabs.dll": {}
+        },
+        "build": {
+          "build/monoandroid81/Xamarin.Android.Support.CustomTabs.targets": {}
+        }
+      },
       "Xamarin.Android.Support.Design/28.0.0.1": {
         "type": "package",
         "dependencies": {
@@ -313,14 +328,15 @@
           "build/monoandroid81/Xamarin.Android.Support.Vector.Drawable.targets": {}
         }
       },
-      "Xamarin.Forms/3.5.0.169047": {
+      "Xamarin.Forms/3.6.0.344457": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.Design": "27.0.2",
-          "Xamarin.Android.Support.v4": "27.0.2",
-          "Xamarin.Android.Support.v7.AppCompat": "27.0.2",
-          "Xamarin.Android.Support.v7.CardView": "27.0.2",
-          "Xamarin.Android.Support.v7.MediaRouter": "27.0.2"
+          "Xamarin.Android.Support.CustomTabs": "28.0.0.1",
+          "Xamarin.Android.Support.Design": "28.0.0.1",
+          "Xamarin.Android.Support.v4": "28.0.0.1",
+          "Xamarin.Android.Support.v7.AppCompat": "28.0.0.1",
+          "Xamarin.Android.Support.v7.CardView": "28.0.0.1",
+          "Xamarin.Android.Support.v7.MediaRouter": "28.0.0.1"
         },
         "compile": {
           "lib/MonoAndroid81/FormsViewGroup.dll": {},
@@ -341,11 +357,26 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamvvm.Forms/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.446417"
+        },
+        "compile": {
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+netstandard1.0/Xamvvm.Core.dll": {},
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+netstandard1.0/Xamvvm.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+netstandard1.0/Xamvvm.Core.dll": {},
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+netstandard1.0/Xamvvm.Forms.dll": {}
+        }
+      },
       "NorthPointApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.5.0.169047"
+          "Xamarin.Forms": "3.6.0.344457",
+          "Xamvvm.Forms": "1.0.5"
         },
         "compile": {
           "bin/placeholder/NorthPointApp.dll": {}
@@ -528,6 +559,27 @@
         "lib/monoandroid90/Xamarin.Android.Support.Core.Utils.dll",
         "xamarin.android.support.core.utils.28.0.0.1.nupkg.sha512",
         "xamarin.android.support.core.utils.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.CustomTabs/28.0.0.1": {
+      "sha512": "INbnBbSWwClVztNUkpyruXXkWWawbtOV6RxW0q7htqRWSUeLK8JhN6tboyhTGW3lV0iy8IebPyNyniNLOVVVFw==",
+      "type": "package",
+      "path": "xamarin.android.support.customtabs/28.0.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/monoandroid71/Xamarin.Android.Support.CustomTabs.targets",
+        "build/monoandroid80/Xamarin.Android.Support.CustomTabs.targets",
+        "build/monoandroid81/Xamarin.Android.Support.CustomTabs.targets",
+        "build/monoandroid90/Xamarin.Android.Support.CustomTabs.targets",
+        "lib/monoandroid60/Xamarin.Android.Support.CustomTabs.dll",
+        "lib/monoandroid70/Xamarin.Android.Support.CustomTabs.dll",
+        "lib/monoandroid71/Xamarin.Android.Support.CustomTabs.dll",
+        "lib/monoandroid80/Xamarin.Android.Support.CustomTabs.dll",
+        "lib/monoandroid81/Xamarin.Android.Support.CustomTabs.dll",
+        "lib/monoandroid90/Xamarin.Android.Support.CustomTabs.dll",
+        "xamarin.android.support.customtabs.28.0.0.1.nupkg.sha512",
+        "xamarin.android.support.customtabs.nuspec"
       ]
     },
     "Xamarin.Android.Support.Design/28.0.0.1": {
@@ -778,13 +830,14 @@
         "xamarin.android.support.vector.drawable.nuspec"
       ]
     },
-    "Xamarin.Forms/3.5.0.169047": {
-      "sha512": "bDUiWsvlU949lyf8gw5ROVQ0kRr1dB8daiWATYCXuOXv/iODsbq/8NmNVxhV2WbOo8b8wJMe7SqZG4V/CQlYuQ==",
+    "Xamarin.Forms/3.6.0.344457": {
+      "sha512": "7IffIKgL0fmgbfCLKzXaFKJ7uOueKiz/BIgmAG1Z5WMn+vMKeALe5GgRs3Uddo670VzllIHWkNEZD3lG+e02bw==",
       "type": "package",
-      "path": "xamarin.forms/3.5.0.169047",
+      "path": "xamarin.forms/3.6.0.344457",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "build/MonoAndroid10/proguard.cfg",
         "build/Xamarin.Forms.DefaultItems.props",
         "build/Xamarin.Forms.DefaultItems.targets",
         "build/Xamarin.Forms.props",
@@ -938,8 +991,22 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.5.0.169047.nupkg.sha512",
+        "xamarin.forms.3.6.0.344457.nupkg.sha512",
         "xamarin.forms.nuspec"
+      ]
+    },
+    "Xamvvm.Forms/1.0.5": {
+      "sha512": "Ru2+HCfRLUaRsZiezos7rx8LFSW1WRcHJZrYhNJzqkItImqJ8zmPP8reBfBdtnWmqd25B/8iGSVcLb+Sh6eM0A==",
+      "type": "package",
+      "path": "xamvvm.forms/1.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+netstandard1.0/Xamvvm.Core.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+netstandard1.0/Xamvvm.Core.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+netstandard1.0/Xamvvm.Forms.dll",
+        "xamvvm.forms.1.0.5.nupkg.sha512",
+        "xamvvm.forms.nuspec"
       ]
     },
     "NorthPointApp/1.0.0": {
@@ -956,24 +1023,25 @@
       "Xamarin.Android.Support.v7.AppCompat >= 28.0.0.1",
       "Xamarin.Android.Support.v7.CardView >= 28.0.0.1",
       "Xamarin.Android.Support.v7.MediaRouter >= 28.0.0.1",
-      "Xamarin.Forms >= 3.5.0.169047"
+      "Xamarin.Forms >= 3.6.0.344457",
+      "Xamvvm.Forms >= 1.0.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\richardsiska\\.nuget\\packages\\": {}
+    "C:\\Users\\Ragel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\Mac\\Home\\Desktop\\XamDev\\CapStone\\NorthPointApp.Android\\NorthPointApp.Android.csproj",
+      "projectUniqueName": "C:\\CapREPO\\CapStone\\NorthPointApp.Android\\NorthPointApp.Android.csproj",
       "projectName": "NorthPointApp.Android",
-      "projectPath": "\\\\Mac\\Home\\Desktop\\XamDev\\CapStone\\NorthPointApp.Android\\NorthPointApp.Android.csproj",
-      "packagesPath": "C:\\Users\\richardsiska\\.nuget\\packages\\",
-      "outputPath": "\\\\Mac\\Home\\Desktop\\XamDev\\CapStone\\NorthPointApp.Android\\obj\\",
+      "projectPath": "C:\\CapREPO\\CapStone\\NorthPointApp.Android\\NorthPointApp.Android.csproj",
+      "packagesPath": "C:\\Users\\Ragel\\.nuget\\packages\\",
+      "outputPath": "C:\\CapREPO\\CapStone\\NorthPointApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\richardsiska\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ragel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -986,8 +1054,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "\\\\Mac\\Home\\Desktop\\XamDev\\CapStone\\NorthPointApp\\NorthPointApp.csproj": {
-              "projectPath": "\\\\Mac\\Home\\Desktop\\XamDev\\CapStone\\NorthPointApp\\NorthPointApp.csproj"
+            "C:\\CapREPO\\CapStone\\NorthPointApp\\NorthPointApp.csproj": {
+              "projectPath": "C:\\CapREPO\\CapStone\\NorthPointApp\\NorthPointApp.csproj"
             }
           }
         }
@@ -1018,7 +1086,11 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.5.0.169047, )"
+            "version": "[3.6.0.344457, )"
+          },
+          "Xamvvm.Forms": {
+            "target": "Package",
+            "version": "[1.0.5, )"
           }
         }
       }

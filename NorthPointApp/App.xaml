@@ -1,5 +1,140 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="NorthPointApp.App">
     <Application.Resources>
+        <!--Resource Dictionary to make static references and reduce code Redundancy-->
+        <ResourceDictionary>
+
+            <!--Font Referencing for IOS and Android-->
+            <OnPlatform x:TypeArguments="x:String" x:Key="BoldFont">
+                <On Platform="Android" Value="AvenirNextLTPro-Bold.otf#AvenirNext LT Pro Bold" />
+                <On Platform="iOS" Value="AvenirNextLTPro-Bold" />
+            </OnPlatform>
+            <OnPlatform x:TypeArguments="x:String" x:Key="NarrowBoldFont">
+                <On Platform="Android" Value="AvenirNextLTPro-BoldCn.otf#AvenirNext LT Pro MediumCn" />
+                <On Platform="iOS" Value="AvenirNextLTPro-BoldCn" />
+            </OnPlatform>
+            <OnPlatform x:TypeArguments="x:String" x:Key="NormalFont">
+                <On Platform="Android" Value="AvenirNextLTPro-Regular.otf#AvenirNext LT Pro Regular" />
+                <On Platform="iOS" Value="AvenirNextLTPro-Regular" />
+            </OnPlatform>
+            <OnPlatform x:TypeArguments="x:String" x:Key="ItalicFont">
+                <On Platform="Android" Value="AvenirNextLTPro-It.otf#AvenirNext LT Pro Regular" />
+                <On Platform="iOS" Value="AvenirNextLTPro-It" />
+            </OnPlatform>
+            
+            <!--Navigation Bar Styling-->
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="Black"/>
+                <Setter Property="BarTextColor" Value="White"/>
+            </Style>
+            
+            <!--Line Text Styling-->
+            <Style x:Key="LineTextWhite" TargetType="Label">
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="Margin" Value="20"/>
+            </Style>
+
+            <Style x:Key="LineTextBlack" TargetType="Label">
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="Margin" Value="20"/>
+            </Style>
+
+            <Style x:Key="LineTextBlackHead" TargetType="Label">
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="FontSize" Value="Large"/>
+                <Setter Property="Margin" Value="20"/>
+            </Style>
+
+            <Style x:Key="LineTextWhiteHead" TargetType="Label">
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="FontSize" Value="Large"/>
+                <Setter Property="Margin" Value="20"/>
+            </Style>
+
+            <!--Button Styling-->
+            <Style x:Key="NavButton1" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="TextColor" Value="Black"/>
+            </Style>
+
+            <Style x:Key="NavButton2" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="DimGray"/>
+                <Setter Property="TextColor" Value="White"/>
+            </Style>
+
+            <Style x:Key="MainButton1" TargetType="Button">
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="BackgroundColor" Value="Red"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="CornerRadius" Value="25"/>
+                <Setter Property="Padding" Value="30 , 10 ,30 ,10"/>
+            </Style>
+
+            <Style x:Key="MainButton2" TargetType="Button">
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="CornerRadius" Value="25"/>
+                <Setter Property="Padding" Value="30 , 10 ,30 ,10"/>
+            </Style>
+
+            <!--Control Template used to add The North Point logo across multiple pages-->
+            <ControlTemplate x:Key="ThemeMaster">
+                <!--Northpoint Logo and and Stack Decoration-->
+                <StackLayout Spacing="0">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackLayout Spacing="0" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="5" Grid.RowSpan="1">
+                            
+                            <BoxView BackgroundColor="White" 
+                                     WidthRequest="50" 
+                                     HeightRequest="2"></BoxView>
+                            
+                            <Image Source="NorthPointCrowdLogoFullLR.png"
+                                   HorizontalOptions="CenterAndExpand"
+                                   VerticalOptions="CenterAndExpand"
+                                   Scale="1"/>
+                            
+                            <BoxView BackgroundColor="White" 
+                                     WidthRequest="50" 
+                                     HeightRequest="2"></BoxView>
+                            
+                        </StackLayout>
+
+                        <ImageButton Scale=".80"
+                                     TranslationY="4"
+                                     TranslationX="-7"
+                                     Source="hamburger.png" 
+                                     BackgroundColor="Transparent" 
+                                     Grid.Column="0" Grid.Row="0" 
+                                     Grid.ColumnSpan="1" 
+                                     Grid.RowSpan="1"
+                                     HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     Clicked="ImageButton_Clicked"/>
+
+                    </Grid>
+                    <ContentPresenter/>
+                </StackLayout>
+            </ControlTemplate>
+
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

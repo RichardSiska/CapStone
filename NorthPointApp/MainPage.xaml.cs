@@ -12,6 +12,12 @@ namespace NorthPointApp
         public MainPage()
         {
             InitializeComponent();
+
+            NavigationPage.SetHasNavigationBar(this, false);
+            NavigationPage.SetHasBackButton(this, false);
         }
+        
+        //Device.OpenUri(new Uri("https://www.northpointchurch.tv"));
+        
     }
 }

@@ -1,7 +1,186 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:NorthPointApp" x:Class="NorthPointApp.MainPage">
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to NorthPoint App!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:NorthPointApp" 
+             x:Class="NorthPointApp.MainPage"
+             BackgroundColor="Gray"
+             Title="Home"
+             ControlTemplate="{StaticResource ThemeMaster}"
+             >
+    
+    <StackLayout Spacing="0">
+        <!--ScrollView that contains a Grid (used for a scrollable grid)-->
+        <ScrollView>
+            <Grid x:Name="Grid" ColumnSpacing="0" RowSpacing="0" BackgroundColor="#2C2D2F">
+                <!--Defines how many Rows there are in the grid layout-->
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+                <!--Defines how many Columns there are in the grid layout-->
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!--Row 1-->
+                <Image Source="SafePlaceBackLR.png" 
+                       Scale="1"  
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"  
+                       Grid.Row="0" 
+                       Grid.Column="0"
+                       Grid.RowSpan="1"
+                       Grid.ColumnSpan="3"/>
+
+                <Image Source="NorthPointSafePlace.png" 
+                       Scale=".9"  
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"  
+                       Grid.Row="0" 
+                       Grid.Column="0"
+                       Grid.RowSpan="1"
+                       Grid.ColumnSpan="3"/>
+
+                <!--Row 2-->
+                <Image Source="BuildingBackLR.png" 
+                       Scale="1"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" 
+                       Grid.Row="1" 
+                       Grid.Column="0"
+                       Grid.RowSpan="1"
+                       Grid.ColumnSpan="3"/>
+    
+                <Label Text="1 CHURCH, 3 LOCATIONS" 
+                       Style="{StaticResource LineTextBlackHead}" 
+                       FontFamily="{StaticResource NormalFont}" 
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"
+                       TranslationY="-35"
+                       Grid.Row="1" 
+                       Grid.Column="0"
+                       Grid.RowSpan="1"
+                       Grid.ColumnSpan="3"/>
+
+                <Button Text="LOCATIONS"
+                       Style="{StaticResource MainButton1}"
+                       FontFamily="{StaticResource NormalFont}" 
+                       Scale="1"
+                       VerticalOptions="Center" 
+                       HorizontalOptions="CenterAndExpand"
+                       TranslationY="35"
+                       Grid.Row="1" 
+                       Grid.Column="0"
+                       Grid.RowSpan="1"
+                       Grid.ColumnSpan="3"/>
+
+                <!--Row 3-->
+                <Image Source="givingLR.png" 
+                       Scale="1"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"  
+                       Grid.Row="2" 
+                       Grid.Column="0" 
+                       Grid.RowSpan="1"
+                       Grid.ColumnSpan="3"/>
+
+                <Label Text="WE'RE ABOUT ACTIONS,NOT JUST WORDS." 
+                       Style="{StaticResource LineTextWhiteHead}" 
+                       FontFamily="{StaticResource NormalFont}" 
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"
+                       TranslationY="-35"
+                       Grid.Row="2" 
+                       Grid.Column="0" 
+                       Grid.RowSpan="1"
+                       Grid.ColumnSpan="3"/>
+
+                <Button Text="GIVE BACK"
+                       Style="{StaticResource MainButton2}"
+                       FontFamily="{StaticResource NormalFont}" 
+                       Scale="1"
+                       VerticalOptions="Center" 
+                       HorizontalOptions="CenterAndExpand"
+                       TranslationY="70"
+                       Grid.Row="2" 
+                       Grid.Column="0"
+                       Grid.RowSpan="1"
+                       Grid.ColumnSpan="3"/>
+
+                <!--Row 4-->
+
+                <Image Source="GryBack.png" 
+                       Scale="1"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"  
+                       Grid.Row="3" 
+                       Grid.Column="0" 
+                       Grid.RowSpan="1"
+                       Grid.ColumnSpan="3"/>
+
+                <Image Source="PointMakers.png" 
+                       Scale="1"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"
+                       TranslationY="-35"
+                       Grid.Row="3" 
+                       Grid.Column="0" 
+                       Grid.RowSpan="1"
+                       Grid.ColumnSpan="3"/>
+
+                <Button Text="LEARN MORE"
+                       Style="{StaticResource MainButton1}"
+                       FontFamily="{StaticResource NormalFont}" 
+                       Scale="1"
+                       VerticalOptions="Center" 
+                       HorizontalOptions="CenterAndExpand"
+                       TranslationY="70"
+                       Grid.Row="3" 
+                       Grid.Column="0"
+                       Grid.RowSpan="1"
+                       Grid.ColumnSpan="3"/>
+
+                <!--Row 5-->
+                <Image Source="NorthPointLogoIconWht.png" 
+                       Scale=".75"
+                       VerticalOptions="Center" 
+                       HorizontalOptions="Center"  
+                       Grid.Row="4" 
+                       Grid.Column="0" 
+                       Grid.RowSpan="1"
+                       Grid.ColumnSpan="3"/>
+
+                <!--Row 6-->
+                <BoxView BackgroundColor="SlateGray" 
+                         WidthRequest="1000" 
+                         HeightRequest="1"
+                         VerticalOptions="Start" 
+                         HorizontalOptions="Center" 
+                         Grid.Row="5" 
+                         Grid.Column="0" 
+                         Grid.RowSpan="1"
+                         Grid.ColumnSpan="3"/>
+
+                <!--Row 7-->
+                <Label Text="© Copyright 2019   |   North Point Church" 
+                       Style="{StaticResource LineTextWhite}"
+                       FontSize="Micro"
+                       FontFamily="{StaticResource NarrowBoldFont}" 
+                       VerticalOptions="End" 
+                       HorizontalOptions="Center" 
+                       Grid.Row="6" 
+                       Grid.Column="0" 
+                       Grid.RowSpan="1"
+                       Grid.ColumnSpan="3"/>
+
+            </Grid>
+        </ScrollView>
     </StackLayout>
 </ContentPage>
