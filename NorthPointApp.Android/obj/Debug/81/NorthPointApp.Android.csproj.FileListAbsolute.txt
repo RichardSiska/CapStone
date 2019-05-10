@@ -130,6 +130,3 @@ C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\android\assets\System.Xml
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-C:\CapREPO\CapStone\NorthPointApp\bin\Debug\netstandard2.0\NorthPointApp.dll
-C:\CapREPO\CapStone\NorthPointApp.Android\bin\Debug\NorthPointApp.dll.mdb
-C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\linksrc\NorthPointApp.dll.mdb
