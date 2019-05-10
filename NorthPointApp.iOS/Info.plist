@@ -39,5 +39,9 @@
 	<string>LaunchScreen</string>
 	<key>CFBundleName</key>
 	<string>NorthPointApp</string>
+	<key>XSLaunchImageAssets</key>
+	<string>Assets.xcassets/LaunchImages.launchimage</string>
+	<key>XSAppIconAssets</key>
+	<string>Assets.xcassets/AppIcons.appiconset</string>
 </dict>
 </plist>

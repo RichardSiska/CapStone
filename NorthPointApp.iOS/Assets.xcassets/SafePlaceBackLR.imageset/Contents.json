@@ -3,17 +3,17 @@
     {
       "scale": "1x",
       "idiom": "universal",
-      "filename": "SafePlaceBackLR.png"
+      "filename": "SafePlaceBack.png"
     },
     {
       "scale": "2x",
       "idiom": "universal",
-      "filename": "SafePlaceBackLR@2x.png"
+      "filename": "SafePlaceBack@2x.png"
     },
     {
       "scale": "3x",
       "idiom": "universal",
-      "filename": "SafePlaceBackLR@3x.png"
+      "filename": "SafePlaceBack@3x.png"
     }
   ],
   "properties": {},

@@ -169,22 +169,22 @@
     <ImageAsset Include="Assets.xcassets\AppIcons1.appiconset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\BuildingBackLR.imageset\BuildingBackLR.png">
+    <ImageAsset Include="Assets.xcassets\BuildingBackLR.imageset\BuildingBack.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\BuildingBackLR.imageset\BuildingBackLR@2x.png">
+    <ImageAsset Include="Assets.xcassets\BuildingBackLR.imageset\BuildingBack@2x.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\BuildingBackLR.imageset\BuildingBackLR@3x.png">
+    <ImageAsset Include="Assets.xcassets\BuildingBackLR.imageset\BuildingBack@3x.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\givingLR.imageset\givingLR.png">
+    <ImageAsset Include="Assets.xcassets\givingLR.imageset\Giving.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\givingLR.imageset\givingLR@2x.png">
+    <ImageAsset Include="Assets.xcassets\givingLR.imageset\Giving@2x.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\givingLR.imageset\givingLR@3x.png">
+    <ImageAsset Include="Assets.xcassets\givingLR.imageset\Giving@3x.png">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\GryBack.imageset\GryBack.png">
@@ -253,13 +253,13 @@
     <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\SafePlaceBackLR.imageset\SafePlaceBackLR.png">
+    <ImageAsset Include="Assets.xcassets\SafePlaceBackLR.imageset\SafePlaceBack.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\SafePlaceBackLR.imageset\SafePlaceBackLR@2x.png">
+    <ImageAsset Include="Assets.xcassets\SafePlaceBackLR.imageset\SafePlaceBack@2x.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\SafePlaceBackLR.imageset\SafePlaceBackLR@3x.png">
+    <ImageAsset Include="Assets.xcassets\SafePlaceBackLR.imageset\SafePlaceBack@3x.png">
       <Visible>false</Visible>
     </ImageAsset>
   </ItemGroup>

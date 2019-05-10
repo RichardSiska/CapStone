@@ -31,7 +31,6 @@
 
                 <!--Row 1-->
                 <Image Source="SafePlaceBackLR.png" 
-                       Aspect="AspectFill"
                        Scale="1"  
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand"  

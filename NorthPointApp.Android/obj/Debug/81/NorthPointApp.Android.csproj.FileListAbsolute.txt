@@ -80,6 +80,7 @@ C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable-mdpi\splashl
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable-xhdpi\splashlogoclr.png
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable-xxhdpi\splashlogoclr.png
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable-xxxhdpi\splashlogoclr.png
+C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\res\drawable-hdpi\splashlogoclr.png
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\R.cs.flag
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\R.txt
 C:\CapREPO\CapStone\NorthPointApp.Android\obj\Debug\81\uploadflags.txt
