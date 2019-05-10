@@ -4995,6 +4995,9 @@ namespace NorthPointApp.Droid
 			// aapt resource value: 0x7F010016
 			public const int SafePlaceBackLR = 2130771990;
 			
+			// aapt resource value: 0x7F010018
+			public const int SplashLogoClr = 2130771992;
+			
 			// aapt resource value: 0x7F010017
 			public const int splash_screen = 2130771991;
 			
@@ -5887,9 +5890,6 @@ namespace NorthPointApp.Droid
 			
 			// aapt resource value: 0x7F040004
 			public const int launcher_foreground = 2130968580;
-			
-			// aapt resource value: 0x7F040005
-			public const int splashlogoclr = 2130968581;
 			
 			static Mipmap()
 			{
