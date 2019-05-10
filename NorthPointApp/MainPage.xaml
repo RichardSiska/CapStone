@@ -31,6 +31,7 @@
 
                 <!--Row 1-->
                 <Image Source="SafePlaceBackLR.png" 
+                       Aspect="AspectFill"
                        Scale="1"  
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand"  
@@ -108,7 +109,7 @@
                        Scale="1"
                        VerticalOptions="Center" 
                        HorizontalOptions="CenterAndExpand"
-                       TranslationY="70"
+                       TranslationY="40"
                        Grid.Row="2" 
                        Grid.Column="0"
                        Grid.RowSpan="1"

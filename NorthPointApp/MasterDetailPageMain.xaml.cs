@@ -49,7 +49,9 @@ namespace NorthPointApp
 
         private void Button_Clicked_GivingNav(object sender, EventArgs e)
         {
-            Detail = new NavigationPage(new Giving { });
+            //Detail = new NavigationPage(new Giving { });
+
+            Device.OpenUri(new Uri("https://www.northpointchurch.tv/giving/"));
 
             IsPresented = false;
         }

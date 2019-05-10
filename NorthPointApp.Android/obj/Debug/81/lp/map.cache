@@ -1,4 +1,6 @@
 FormsViewGroup
+HtmlAgilityPack
+Newtonsoft.Json
 NorthPointApp
 System.Runtime
 Xamarin.Android.Arch.Core.Common

@@ -4990,7 +4990,7 @@ namespace NorthPointApp.Droid
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
 			// aapt resource value: 0x7F010015
-			public const int POINTMAKERS = 2130771989;
+			public const int PointMakers = 2130771989;
 			
 			// aapt resource value: 0x7F010016
 			public const int SafePlaceBackLR = 2130771990;

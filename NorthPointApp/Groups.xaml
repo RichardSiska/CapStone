@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="NorthPointApp.Groups"
@@ -12,20 +12,17 @@
             <Grid x:Name="grid" ColumnSpacing="0" RowSpacing="0" BackgroundColor="Black">
                 <!--Defines how many Rows there are in the grid layout-->
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
                 </Grid.RowDefinitions>
 
                 <!--Defines how many Columns there are in the grid layout-->
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
@@ -38,14 +35,14 @@
                        HorizontalOptions="CenterAndExpand"
                        Grid.Row="0" 
                        Grid.Column="0" 
-                       Grid.ColumnSpan="5">
+                       Grid.ColumnSpan="3">
 
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ImageCell
                                 DetailColor="White"
                                 Text="{Binding Name}"
-                                Detail="{Binding Type}"
+                                Detail="{Binding Id}"
                                 ImageSource="NorthPointLogoIconWht.png"
                             />
                         </DataTemplate>
@@ -60,7 +57,7 @@
                        HorizontalOptions="CenterAndExpand"
                        Grid.Row="1" 
                        Grid.Column="0" 
-                       Grid.ColumnSpan="5"/>
+                       Grid.ColumnSpan="3"/>
 
                 <!--Row 3-->
                 <Label Text="Test Line (Avenir Bold Narrow)" 
@@ -70,7 +67,7 @@
                        HorizontalOptions="CenterAndExpand" 
                        Grid.Row="2" 
                        Grid.Column="0" 
-                       Grid.ColumnSpan="5"/>
+                       Grid.ColumnSpan="3"/>
 
                 <!--Row 4-->
                 <Label Text="Test Line (Avenir Italic)" 
@@ -80,17 +77,42 @@
                        HorizontalOptions="CenterAndExpand" 
                        Grid.Row="3" 
                        Grid.Column="0" 
-                       Grid.ColumnSpan="5"/>
+                       Grid.ColumnSpan="3"/>
 
                 <!--Row 5-->
-                <Button Text="test"
-                        
-                        FontFamily="{StaticResource ItalicFont}" 
-                        VerticalOptions="CenterAndExpand" 
-                        HorizontalOptions="CenterAndExpand" 
-                        Grid.Row="4" 
-                        Grid.Column="0" 
-                        Grid.ColumnSpan="5"/>
+                
+
+                <Image Source="NorthPointLogoIconWht.png" 
+                       Scale=".75"
+                       VerticalOptions="Center" 
+                       HorizontalOptions="Center"  
+                       Grid.Row="4" 
+                       Grid.Column="0" 
+                       Grid.RowSpan="1"
+                       Grid.ColumnSpan="3"/>
+
+                <!--Row 6-->
+                <BoxView BackgroundColor="SlateGray" 
+                         WidthRequest="1000" 
+                         HeightRequest="1"
+                         VerticalOptions="Start" 
+                         HorizontalOptions="Center" 
+                         Grid.Row="5" 
+                         Grid.Column="0" 
+                         Grid.RowSpan="1"
+                         Grid.ColumnSpan="3"/>
+
+                <!--Row 7-->
+                <Label Text="© Copyright 2019   |   North Point Church" 
+                       Style="{StaticResource LineTextWhite}"
+                       FontSize="Micro"
+                       FontFamily="{StaticResource NarrowBoldFont}" 
+                       VerticalOptions="End" 
+                       HorizontalOptions="Center" 
+                       Grid.Row="6" 
+                       Grid.Column="0" 
+                       Grid.RowSpan="1"
+                       Grid.ColumnSpan="3"/>
 
             </Grid>
         </ScrollView>
