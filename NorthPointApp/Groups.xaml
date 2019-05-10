@@ -50,66 +50,34 @@
                 </ListView>
 
                 <!--Row 2-->
-                <Label Text="Test Line (Avenir Bold)" 
-                       Style="{StaticResource LineTextWhite}" 
-                       FontFamily="{StaticResource BoldFont}" 
-                       VerticalOptions="CenterAndExpand" 
-                       HorizontalOptions="CenterAndExpand"
-                       Grid.Row="1" 
-                       Grid.Column="0" 
-                       Grid.ColumnSpan="3"/>
-
-                <!--Row 3-->
-                <Label Text="Test Line (Avenir Bold Narrow)" 
-                       Style="{StaticResource LineTextWhite}" 
-                       FontFamily="{StaticResource NarrowBoldFont}" 
-                       VerticalOptions="CenterAndExpand" 
-                       HorizontalOptions="CenterAndExpand" 
-                       Grid.Row="2" 
-                       Grid.Column="0" 
-                       Grid.ColumnSpan="3"/>
-
-                <!--Row 4-->
-                <Label Text="Test Line (Avenir Italic)" 
-                       Style="{StaticResource LineTextWhite}" 
-                       FontFamily="{StaticResource ItalicFont}" 
-                       VerticalOptions="CenterAndExpand" 
-                       HorizontalOptions="CenterAndExpand" 
-                       Grid.Row="3" 
-                       Grid.Column="0" 
-                       Grid.ColumnSpan="3"/>
-
-                <!--Row 5-->
-                
-
                 <Image Source="NorthPointLogoIconWht.png" 
                        Scale=".75"
                        VerticalOptions="Center" 
                        HorizontalOptions="Center"  
-                       Grid.Row="4" 
+                       Grid.Row="1" 
                        Grid.Column="0" 
                        Grid.RowSpan="1"
                        Grid.ColumnSpan="3"/>
 
-                <!--Row 6-->
+                <!--Row 3-->
                 <BoxView BackgroundColor="SlateGray" 
                          WidthRequest="1000" 
                          HeightRequest="1"
                          VerticalOptions="Start" 
                          HorizontalOptions="Center" 
-                         Grid.Row="5" 
+                         Grid.Row="2" 
                          Grid.Column="0" 
                          Grid.RowSpan="1"
                          Grid.ColumnSpan="3"/>
 
-                <!--Row 7-->
+                <!--Row 4-->
                 <Label Text="© Copyright 2019   |   North Point Church" 
                        Style="{StaticResource LineTextWhite}"
                        FontSize="Micro"
                        FontFamily="{StaticResource NarrowBoldFont}" 
                        VerticalOptions="End" 
                        HorizontalOptions="Center" 
-                       Grid.Row="6" 
+                       Grid.Row="3" 
                        Grid.Column="0" 
                        Grid.RowSpan="1"
                        Grid.ColumnSpan="3"/>

@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Xamarin.Forms;
 
 namespace NorthPointApp.Droid
 {
@@ -21,6 +22,15 @@ namespace NorthPointApp.Droid
         {
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
+
+            if (Device.Idiom == TargetIdiom.Phone)
+            {
+                RequestedOrientation = ScreenOrientation.Portrait;
+            }
+            else
+            {
+                RequestedOrientation = ScreenOrientation.Portrait;
+            }
 
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
