@@ -9,7 +9,7 @@
     <StackLayout>
         <ScrollView>
 
-            <Grid x:Name="grid" ColumnSpacing="0" RowSpacing="0" BackgroundColor="Black">
+            <Grid x:Name="grid" ColumnSpacing="0" RowSpacing="0" BackgroundColor="#2C2D2F">
                 <!--Defines how many Rows there are in the grid layout-->
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -30,21 +30,65 @@
 
                 <!--Row 1-->
                 <ListView
-                       x:Name="lstView" RowHeight="60"
+                       x:Name="lstView" RowHeight="100"
                        VerticalOptions="CenterAndExpand" 
                        HorizontalOptions="CenterAndExpand"
-                       Grid.Row="0" 
-                       Grid.Column="0" 
-                       Grid.ColumnSpan="3">
-
+                       Grid.Column="0"
+                       Grid.ColumnSpan="3"
+                       HasUnevenRows="False"
+                       BackgroundColor="White"
+                       ListView.SeparatorColor="Black">
+                    
+                    <!--Hard Coded Data to make the app presentable-->
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                            <ImageCell
-                                DetailColor="White"
-                                Text="{Binding Name}"
-                                Detail="{Binding Id}"
-                                ImageSource="NorthPointLogoIconWht.png"
-                            />
+                            <ViewCell >
+                                <ViewCell.View>
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                        </Grid.RowDefinitions>
+
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="auto"/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <Image Source="NorthPointClrSmall"
+                                               VerticalOptions="Center"
+                                               Grid.Row="0" 
+                                               Grid.Column="0" 
+                                               Grid.RowSpan="4"/>
+
+                                        <Label Text="{Binding Name}"
+                                               FontFamily="{StaticResource NormalFont}" 
+                                               Grid.Row="0" 
+                                               Grid.Column="1" 
+                                               TextColor="Black"/>
+                                        
+                                        <Label Text="{Binding Schedule}"
+                                               FontFamily="{StaticResource NormalFont}"
+                                               Grid.Row="1" 
+                                               Grid.Column="1" 
+                                               TextColor="Black"/>
+                                        
+                                        <Label Text="{Binding LocationName}"
+                                               FontFamily="{StaticResource NormalFont}"
+                                               Grid.Row="2" 
+                                               Grid.Column="1" 
+                                               TextColor="Black"/>
+                                        
+                                        <Label Text="{Binding LocationAddress}"
+                                               FontFamily="{StaticResource NormalFont}"
+                                               Grid.Row="3" 
+                                               Grid.Column="1" 
+                                               TextColor="Black"/>
+                                    </Grid>
+                                </ViewCell.View>
+                            </ViewCell>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>

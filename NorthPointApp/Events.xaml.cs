@@ -49,22 +49,22 @@ namespace NorthPointApp
             //Error and then lat the list view have the list.
             GroupObject groupOne = new GroupObject();
             GroupObject groupTwo = new GroupObject();
-            GroupObject groupThree = new GroupObject();
-
-            groupOne.Name = "Group One";
-            groupOne.Id = "1";
 
 
-            groupTwo.Name = "Group Two";
-            groupTwo.Id = "2";
+            groupOne.Name = "Power Up Kids Camp";
+            groupOne.Schedule = "June 9-11, 2019";
+            groupOne.Url = "https://northpointchurch.churchcenter.com/registrations/events/205817";
 
-            groupThree.Name = "Group Three";
-            groupThree.Id = "3";
 
+            groupTwo.Name = "Student Camp 2019";
+            groupTwo.Schedule = "July 8-12, 2019";
+            groupTwo.Url = "https://northpointchurch.churchcenter.com/registrations/events/176817";
+
+        
 
             testGroup.Add(groupOne);
             testGroup.Add(groupTwo);
-            testGroup.Add(groupThree);
+      
 
             /*
              * 
